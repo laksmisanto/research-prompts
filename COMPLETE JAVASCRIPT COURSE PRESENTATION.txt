@@ -1,0 +1,519 @@
+# MASTER PROMPT: COMPLETE JAVASCRIPT COURSE PRESENTATION
+
+Act as a Senior JavaScript Engineer, Senior Frontend Architect, Full Stack Developer, and Professional Technical Instructor.
+
+Your task is to create a COMPLETE PROFESSIONAL JAVASCRIPT PRESENTATION COURSE.
+
+Target Audience:
+
+* Complete Beginners
+* Junior Developers
+* Intermediate Developers
+* Advanced Developers
+
+Goal:
+Teach JavaScript from absolute beginner level to industry-level advanced JavaScript development.
+
+Requirements:
+
+* 150–200+ Slides
+* Professional teaching structure
+* Industry best practices
+* Modern JavaScript (ES6+)
+* Real-world examples
+* Visual diagram suggestions
+* Exercises
+* Quizzes
+* Homework
+* Interview preparation
+* Mini Projects
+* Final Capstone Project
+
+For EVERY slide include:
+
+1. Slide Title
+2. Learning Objective
+3. Detailed Explanation
+4. Code Example
+5. Visual Diagram Suggestion
+6. Real-world Example
+7. Exercise
+8. Quiz Question
+9. Homework
+10. Teacher Notes
+
+Output in presentation-ready format.
+
+================================================
+MODULE 1: INTRODUCTION TO JAVASCRIPT
+====================================
+
+Slides:
+
+* What is JavaScript
+* History of JavaScript
+* Why Learn JavaScript
+* JavaScript vs Other Languages
+* How JavaScript Works
+* JavaScript Engine
+* Browser vs Server JavaScript
+* V8 Engine Overview
+* JavaScript Ecosystem
+* Real-world Use Cases
+
+================================================
+MODULE 2: SETTING UP ENVIRONMENT
+================================
+
+Slides:
+
+* Installing VS Code
+* Browser DevTools
+* Node.js Introduction
+* npm Introduction
+* Creating First JavaScript File
+* Running JavaScript in Browser
+* Running JavaScript with Node.js
+* Debugging Basics
+
+================================================
+MODULE 3: VARIABLES & DATA TYPES
+================================
+
+Slides:
+
+* Variables Introduction
+* var
+* let
+* const
+* Primitive Data Types
+* String
+* Number
+* Boolean
+* Undefined
+* Null
+* BigInt
+* Symbol
+* Type Checking
+* typeof Operator
+* Dynamic Typing
+
+================================================
+MODULE 4: OPERATORS
+===================
+
+Slides:
+
+* Arithmetic Operators
+* Assignment Operators
+* Comparison Operators
+* Logical Operators
+* Unary Operators
+* Ternary Operator
+* Nullish Coalescing
+* Optional Chaining
+* Operator Precedence
+
+================================================
+MODULE 5: CONTROL FLOW
+======================
+
+Slides:
+
+* if Statement
+* else
+* else if
+* switch
+* Nested Conditions
+* Truthy Values
+* Falsy Values
+* Best Practices
+
+================================================
+MODULE 6: LOOPS
+===============
+
+Slides:
+
+* for Loop
+* while Loop
+* do while Loop
+* break
+* continue
+* Nested Loops
+* Loop Performance
+* Common Mistakes
+
+================================================
+MODULE 7: FUNCTIONS
+===================
+
+Slides:
+
+* Function Basics
+* Function Declaration
+* Function Expression
+* Parameters
+* Arguments
+* Return Statement
+* Arrow Functions
+* Callback Functions
+* Higher Order Functions
+* Pure Functions
+
+================================================
+MODULE 8: SCOPE & HOISTING
+==========================
+
+Slides:
+
+* Global Scope
+* Function Scope
+* Block Scope
+* Lexical Scope
+* Scope Chain
+* Hoisting
+* Temporal Dead Zone
+* Best Practices
+
+================================================
+MODULE 9: OBJECTS
+=================
+
+Slides:
+
+* Object Fundamentals
+* Creating Objects
+* Accessing Properties
+* Methods
+* this Keyword
+* Object Destructuring
+* Object Spread Operator
+* Object.assign()
+* Object.freeze()
+* Object.seal()
+
+================================================
+MODULE 10: ARRAYS
+=================
+
+Slides:
+
+* Array Fundamentals
+* Creating Arrays
+* Accessing Elements
+* push()
+* pop()
+* shift()
+* unshift()
+* splice()
+* slice()
+* concat()
+* includes()
+* find()
+* filter()
+* map()
+* reduce()
+* every()
+* some()
+
+================================================
+MODULE 11: STRING METHODS
+=========================
+
+Slides:
+
+* String Manipulation
+* trim()
+* split()
+* replace()
+* replaceAll()
+* substring()
+* slice()
+* includes()
+* startsWith()
+* endsWith()
+* Template Literals
+
+================================================
+MODULE 12: DOM MANIPULATION
+===========================
+
+Slides:
+
+* What is DOM
+* DOM Tree
+* Selecting Elements
+* querySelector()
+* querySelectorAll()
+* getElementById()
+* Changing Content
+* Changing Styles
+* Creating Elements
+* Removing Elements
+* DOM Traversal
+
+================================================
+MODULE 13: EVENTS
+=================
+
+Slides:
+
+* Event Basics
+* Click Events
+* Keyboard Events
+* Mouse Events
+* Form Events
+* Event Object
+* Event Bubbling
+* Event Capturing
+* Event Delegation
+
+================================================
+MODULE 14: ES6+ FEATURES
+========================
+
+Slides:
+
+* let & const
+* Template Literals
+* Destructuring
+* Spread Operator
+* Rest Parameters
+* Arrow Functions
+* Default Parameters
+* Optional Chaining
+* Nullish Coalescing
+
+================================================
+MODULE 15: ASYNCHRONOUS JAVASCRIPT
+==================================
+
+Slides:
+
+* Synchronous vs Asynchronous
+* Call Stack
+* Web APIs
+* Callback Queue
+* Event Loop
+* Callbacks
+* Callback Hell
+* Promises
+* Promise Chaining
+* async/await
+* Error Handling
+
+================================================
+MODULE 16: FETCH API
+====================
+
+Slides:
+
+* API Basics
+* HTTP Methods
+* GET Requests
+* POST Requests
+* PUT Requests
+* DELETE Requests
+* JSON
+* Fetch API
+* Error Handling
+* Loading States
+
+================================================
+MODULE 17: ERROR HANDLING
+=========================
+
+Slides:
+
+* Common Errors
+* Syntax Errors
+* Runtime Errors
+* try/catch
+* throw
+* finally
+* Custom Errors
+
+================================================
+MODULE 18: JAVASCRIPT OOP
+=========================
+
+Slides:
+
+* OOP Introduction
+* Classes
+* Constructors
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+* Static Methods
+* Private Fields
+
+================================================
+MODULE 19: ADVANCED JAVASCRIPT
+==============================
+
+Slides:
+
+* Closures
+* Currying
+* Memoization
+* Debouncing
+* Throttling
+* Prototypes
+* Prototype Chain
+* Call
+* Apply
+* Bind
+
+================================================
+MODULE 20: MODULES
+==================
+
+Slides:
+
+* Why Modules
+* Import
+* Export
+* Default Export
+* Named Export
+* Module Structure
+* Best Practices
+
+================================================
+MODULE 21: JAVASCRIPT DESIGN PATTERNS
+=====================================
+
+Slides:
+
+* Module Pattern
+* Factory Pattern
+* Singleton Pattern
+* Observer Pattern
+* Strategy Pattern
+
+================================================
+MODULE 22: PERFORMANCE OPTIMIZATION
+===================================
+
+Slides:
+
+* Performance Basics
+* Memory Management
+* Memory Leaks
+* Lazy Loading
+* Code Splitting
+* Optimization Techniques
+
+================================================
+MODULE 23: SECURITY
+===================
+
+Slides:
+
+* XSS
+* CSRF
+* Input Validation
+* Sanitization
+* Secure Coding Practices
+
+================================================
+MODULE 24: TESTING
+==================
+
+Slides:
+
+* Testing Fundamentals
+* Unit Testing
+* Integration Testing
+* End-to-End Testing
+* Jest Overview
+* Testing Best Practices
+
+================================================
+MODULE 25: JAVASCRIPT IN MODERN FRAMEWORKS
+==========================================
+
+Slides:
+
+* JavaScript in React
+* JavaScript in Next.js
+* JavaScript in Vue
+* JavaScript in Node.js
+
+================================================
+MODULE 26: REAL-WORLD PROJECTS
+==============================
+
+Build Projects:
+
+1. Calculator
+2. To-Do App
+3. Weather App
+4. Quiz Application
+5. Expense Tracker
+6. Movie Search App
+7. E-Commerce Frontend
+8. Admin Dashboard
+9. Chat Application
+10. News Aggregator
+
+For each project include:
+
+* Project Overview
+* Folder Structure
+* Features
+* Development Steps
+* Best Practices
+* Challenges
+* Deployment
+
+================================================
+MODULE 27: INTERVIEW PREPARATION
+================================
+
+Slides:
+
+* Beginner Questions
+* Intermediate Questions
+* Advanced Questions
+* Coding Challenges
+* System Design Basics
+* Real Interview Scenarios
+
+================================================
+MODULE 28: JAVASCRIPT ROADMAP 2026
+==================================
+
+Slides:
+
+* Junior Developer Roadmap
+* Frontend Roadmap
+* Full Stack Roadmap
+* Freelancing Path
+* Portfolio Strategy
+* Open Source Contribution
+* Career Growth Plan
+
+Final Capstone Project:
+
+Build a Production-Ready Full Stack Application using:
+
+* HTML
+* CSS
+* JavaScript
+* APIs
+* Authentication
+* Database
+* Deployment
+
+Provide:
+
+* Architecture Diagram
+* Development Workflow
+* Best Practices
+* Scalability Considerations
+* Deployment Checklist
+
+Generate the complete presentation in professional slide-by-slide format.
