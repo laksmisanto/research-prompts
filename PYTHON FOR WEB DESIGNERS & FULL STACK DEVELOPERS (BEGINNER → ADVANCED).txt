@@ -1,0 +1,366 @@
+# MASTER PROMPT: PYTHON FOR WEB DESIGNERS & FULL STACK DEVELOPERS (BEGINNER → ADVANCED)
+
+Act as a Senior Python Engineer, Backend Architect, Full Stack Developer, and Professional Technical Instructor.
+
+Create a COMPLETE PROFESSIONAL PRESENTATION for learning Python specifically for Web Development.
+
+Target Audience:
+
+* Web Designers
+* Frontend Developers
+* Full Stack Developers
+* Beginners
+
+Requirements:
+
+* 120–150 Slides
+* Beginner to Advanced
+* Industry Standard Practices
+* Real Projects
+* Interview Preparation
+* Exercises & Homework
+
+For every slide provide:
+
+1. Slide Title
+2. Learning Objective
+3. Detailed Explanation
+4. Python Code Example
+5. Visual Diagram Suggestion
+6. Real-world Example
+7. Exercise
+8. Quiz
+9. Homework
+10. Teacher Notes
+
+================================================
+MODULE 1: PYTHON INTRODUCTION
+=============================
+
+Slides:
+
+* What is Python
+* Why Python is Popular
+* Python Applications
+* Python in Web Development
+* Python vs JavaScript
+* Python Ecosystem
+* Installing Python
+* VS Code Setup
+
+================================================
+MODULE 2: PYTHON FUNDAMENTALS
+=============================
+
+Slides:
+
+* Variables
+* Data Types
+* Strings
+* Numbers
+* Booleans
+* Input & Output
+* Type Conversion
+
+================================================
+MODULE 3: OPERATORS
+===================
+
+Slides:
+
+* Arithmetic
+* Comparison
+* Logical
+* Assignment
+* Membership
+* Identity
+
+================================================
+MODULE 4: CONDITIONS
+====================
+
+Slides:
+
+* if
+* elif
+* else
+* Nested Conditions
+
+================================================
+MODULE 5: LOOPS
+===============
+
+Slides:
+
+* for
+* while
+* break
+* continue
+* range()
+
+================================================
+MODULE 6: FUNCTIONS
+===================
+
+Slides:
+
+* Function Basics
+* Parameters
+* Return Values
+* Lambda Functions
+* Recursion
+
+================================================
+MODULE 7: DATA STRUCTURES
+=========================
+
+Slides:
+
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* Nested Structures
+
+================================================
+MODULE 8: OBJECT ORIENTED PROGRAMMING
+=====================================
+
+Slides:
+
+* Classes
+* Objects
+* Constructors
+* Encapsulation
+* Inheritance
+* Polymorphism
+
+================================================
+MODULE 9: FILE HANDLING
+=======================
+
+Slides:
+
+* Read Files
+* Write Files
+* CSV
+* JSON
+
+================================================
+MODULE 10: ERROR HANDLING
+=========================
+
+Slides:
+
+* try
+* except
+* finally
+* Custom Exceptions
+
+================================================
+MODULE 11: PYTHON MODULES
+=========================
+
+Slides:
+
+* Import
+* Packages
+* Virtual Environment
+* pip
+
+================================================
+MODULE 12: DATABASES
+====================
+
+Slides:
+
+* SQL Basics
+* SQLite
+* PostgreSQL
+* CRUD Operations
+
+================================================
+MODULE 13: WEB SCRAPING
+=======================
+
+Slides:
+
+* Requests
+* BeautifulSoup
+* Data Extraction
+* RSS Parsing
+* News Collection
+
+Project:
+Build a News Scraper
+
+================================================
+MODULE 14: API DEVELOPMENT
+==========================
+
+Slides:
+
+* What is API
+* REST API
+* JSON
+* CRUD Endpoints
+* Authentication
+
+================================================
+MODULE 15: FLASK FRAMEWORK
+==========================
+
+Slides:
+
+* Flask Basics
+* Routing
+* Templates
+* Forms
+* Database Integration
+
+Project:
+Build a Blog API
+
+================================================
+MODULE 16: DJANGO FRAMEWORK
+===========================
+
+Slides:
+
+* Django Introduction
+* Models
+* Views
+* Templates
+* Admin Panel
+* Authentication
+
+Project:
+Build a News Portal
+
+================================================
+MODULE 17: FASTAPI
+==================
+
+Slides:
+
+* FastAPI Basics
+* Async Programming
+* API Documentation
+* Authentication
+* Validation
+
+Project:
+Build Production API
+
+================================================
+MODULE 18: AUTOMATION
+=====================
+
+Slides:
+
+* Automation Scripts
+* File Processing
+* Email Automation
+* Data Processing
+
+================================================
+MODULE 19: AI INTEGRATION
+=========================
+
+Slides:
+
+* OpenAI APIs
+* AI Chatbot
+* Content Generation
+* AI Automation
+
+================================================
+MODULE 20: DEPLOYMENT
+=====================
+
+Slides:
+
+* Linux Server
+* Nginx
+* Gunicorn
+* Docker
+* VPS Deployment
+
+================================================
+MODULE 21: FULL STACK PYTHON
+============================
+
+Architecture:
+
+Frontend:
+
+* HTML
+* CSS
+* JavaScript
+* React
+
+Backend:
+
+* Python
+* FastAPI
+
+Database:
+
+* PostgreSQL
+
+Deployment:
+
+* Docker
+* VPS
+
+================================================
+MODULE 22: REAL-WORLD PROJECTS
+==============================
+
+Projects:
+
+1. Personal Portfolio Backend
+2. Blog System
+3. Authentication System
+4. News Aggregator
+5. E-Commerce Backend
+6. CMS System
+7. SaaS API
+8. AI Content Generator
+
+================================================
+MODULE 23: INTERVIEW PREPARATION
+================================
+
+Slides:
+
+* Python Interview Questions
+* Backend Questions
+* API Questions
+* Database Questions
+
+================================================
+MODULE 24: CAREER ROADMAP
+=========================
+
+Slides:
+
+* Python Developer
+* Backend Developer
+* Full Stack Developer
+* AI Engineer
+* Freelancing Path
+
+Final Capstone:
+
+Build a Production-Ready News Platform:
+
+* FastAPI Backend
+* PostgreSQL
+* Authentication
+* News Scraper
+* Admin Dashboard
+* Docker Deployment
+* CI/CD Pipeline
+
+Generate the complete presentation slide-by-slide with code examples and diagrams.
