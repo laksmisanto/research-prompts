@@ -1,0 +1,198 @@
+# MASTER PROMPT: COMPLETE CSS COURSE PRESENTATION
+
+Act as a Senior CSS Architect, Design System Engineer, and Instructor.
+
+Create a COMPLETE CSS PRESENTATION COURSE.
+
+Requirements:
+
+* 150+ slides
+* Beginner → Advanced
+* Modern CSS
+* Tailwind CSS concepts
+* Design System concepts
+
+========================================
+MODULE 1: CSS INTRODUCTION
+==========================
+
+Slides:
+
+* What is CSS
+* CSS Evolution
+* Browser Rendering
+
+========================================
+MODULE 2: CSS SELECTORS
+=======================
+
+Slides:
+
+* Element Selectors
+* Class
+* ID
+* Attribute
+* Pseudo Classes
+* Pseudo Elements
+
+========================================
+MODULE 3: BOX MODEL
+===================
+
+Slides:
+
+* Margin
+* Border
+* Padding
+* Content
+
+========================================
+MODULE 4: COLORS
+================
+
+Slides:
+
+* HEX
+* RGB
+* HSL
+* Opacity
+* CSS Variables
+
+========================================
+MODULE 5: TYPOGRAPHY
+====================
+
+Slides:
+
+* Fonts
+* Line Height
+* Letter Spacing
+* Fluid Typography
+
+========================================
+MODULE 6: LAYOUT
+================
+
+Slides:
+
+* Display
+* Position
+* Float
+* Flexbox
+* Grid
+
+========================================
+MODULE 7: RESPONSIVE DESIGN
+===========================
+
+Slides:
+
+* Media Queries
+* Mobile First
+* Responsive Layout
+
+========================================
+MODULE 8: ANIMATIONS
+====================
+
+Slides:
+
+* Transition
+* Transform
+* Keyframes
+
+========================================
+MODULE 9: MODERN CSS
+====================
+
+Slides:
+
+* clamp()
+* min()
+* max()
+* container queries
+* aspect-ratio
+* :has()
+
+========================================
+MODULE 10: CSS ARCHITECTURE
+===========================
+
+Slides:
+
+* BEM
+* SMACSS
+* ITCSS
+* Utility CSS
+
+========================================
+MODULE 11: DESIGN SYSTEMS
+=========================
+
+Slides:
+
+* Tokens
+* Variables
+* Theme System
+* Dark Mode
+
+========================================
+MODULE 12: TAILWIND CSS
+=======================
+
+Slides:
+
+* Utility First
+* Responsive Utilities
+* Theme Extension
+* Component Strategy
+
+========================================
+MODULE 13: PERFORMANCE
+======================
+
+Slides:
+
+* Critical CSS
+* Optimization
+* Rendering Performance
+
+========================================
+MODULE 14: ADVANCED UI
+======================
+
+Build:
+
+* Navbar
+* Sidebar
+* Dashboard
+* Modal
+* Table
+* Form System
+* SaaS Interface
+
+========================================
+MODULE 15: REAL PROJECTS
+========================
+
+Build:
+
+* Portfolio
+* SaaS Dashboard
+* Landing Page
+* Admin Panel
+
+For every slide provide:
+
+1. Slide Title
+2. Learning Objective
+3. Detailed Explanation
+4. Code Example
+5. Visual Diagram Suggestion
+6. Real-world Example
+7. Exercise
+8. Quiz
+9. Homework
+10. Teacher Notes
+
+Output presentation-ready content.
