@@ -1,0 +1,175 @@
+# MASTER PROMPT: COMPLETE HTML COURSE PRESENTATION
+
+Act as a Senior HTML Instructor and Technical Trainer.
+
+Create a COMPLETE HTML PRESENTATION COURSE.
+
+Requirements:
+
+* 100+ slides
+* Beginner to Advanced
+* Real-world examples
+* Exercises
+* Quizzes
+* Projects
+
+========================================
+MODULE 1: HTML INTRODUCTION
+===========================
+
+Slides:
+
+* What is HTML
+* History of HTML
+* How Websites Work
+* Browser Rendering
+
+========================================
+MODULE 2: HTML DOCUMENT STRUCTURE
+=================================
+
+Slides:
+
+* DOCTYPE
+* html
+* head
+* body
+* metadata
+
+========================================
+MODULE 3: TEXT ELEMENTS
+=======================
+
+Slides:
+
+* Headings
+* Paragraphs
+* Formatting
+* Semantic Text
+
+========================================
+MODULE 4: LINKS & NAVIGATION
+============================
+
+Slides:
+
+* Anchor Tag
+* Relative Links
+* Absolute Links
+* Navigation Menus
+
+========================================
+MODULE 5: IMAGES & MEDIA
+========================
+
+Slides:
+
+* Images
+* Audio
+* Video
+* Responsive Media
+
+========================================
+MODULE 6: LISTS
+===============
+
+Slides:
+
+* Ordered Lists
+* Unordered Lists
+* Description Lists
+
+========================================
+MODULE 7: TABLES
+================
+
+Slides:
+
+* Tables
+* Table Layout
+* Accessibility
+
+========================================
+MODULE 8: FORMS
+===============
+
+Slides:
+
+* Inputs
+* Textarea
+* Select
+* Radio
+* Checkbox
+* Validation
+
+========================================
+MODULE 9: SEMANTIC HTML
+=======================
+
+Slides:
+
+* header
+* nav
+* main
+* article
+* section
+* aside
+* footer
+
+========================================
+MODULE 10: SEO HTML
+===================
+
+Slides:
+
+* Meta Tags
+* Structured Data
+* Open Graph
+
+========================================
+MODULE 11: ACCESSIBILITY
+========================
+
+Slides:
+
+* ARIA
+* Screen Readers
+* Semantic Structure
+
+========================================
+MODULE 12: ADVANCED HTML
+========================
+
+Slides:
+
+* iframe
+* picture
+* source
+* template
+* details
+* summary
+* dialog
+
+========================================
+MODULE 13: PROJECTS
+===================
+
+Build:
+
+* Personal Portfolio
+* Landing Page
+* Blog Layout
+* Product Page
+
+Each slide must contain:
+
+* Title
+* Objective
+* Explanation
+* Code Example
+* Diagram Suggestion
+* Exercise
+* Quiz Question
+* Homework
+
+Output presentation-ready content.
