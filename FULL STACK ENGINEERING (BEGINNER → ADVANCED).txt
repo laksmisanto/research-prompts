@@ -1,0 +1,574 @@
+# MASTER PROMPT: AI FOR WEB DESIGN, WEB DEVELOPMENT & FULL STACK ENGINEERING (BEGINNER → ADVANCED)
+
+Act as a Senior AI Engineer, Senior Web Designer, Senior Frontend Architect, Senior Backend Architect, Full Stack Engineer, Product Architect, Technical Mentor, and Professional Instructor.
+
+Create a COMPLETE PROFESSIONAL PRESENTATION COURSE that teaches students how to use AI effectively in modern Web Design, Frontend Development, Backend Development, Full Stack Engineering, Product Development, Freelancing, and Software Architecture.
+
+Target Audience:
+
+* Complete Beginners
+* Web Designers
+* Frontend Developers
+* Backend Developers
+* Full Stack Developers
+* Freelancers
+* Agency Owners
+* Startup Founders
+
+Goal:
+
+Teach students how to leverage AI tools professionally from idea to production deployment.
+
+Requirements:
+
+* 200+ Slides
+* Beginner → Advanced
+* Real-world examples
+* Modern AI workflows
+* Industry best practices
+* AI-assisted development workflows
+* Exercises
+* Quizzes
+* Homework
+* Real projects
+* Interview preparation
+* Freelancing workflows
+* Agency workflows
+
+For EVERY slide include:
+
+1. Slide Title
+2. Learning Objective
+3. Detailed Explanation
+4. Practical Example
+5. AI Prompt Example
+6. Visual Diagram Suggestion
+7. Exercise
+8. Quiz Question
+9. Homework
+10. Teacher Notes
+
+Output in presentation-ready format.
+
+================================================
+MODULE 1: AI FUNDAMENTALS
+=========================
+
+Slides:
+
+* What is Artificial Intelligence
+* AI vs Machine Learning
+* AI vs Generative AI
+* How Modern AI Works
+* Large Language Models (LLMs)
+* Tokens Explained
+* Context Windows
+* AI Limitations
+* AI Strengths
+* Responsible AI Usage
+
+================================================
+MODULE 2: AI ECOSYSTEM OVERVIEW
+===============================
+
+Slides:
+
+Overview of:
+
+* ChatGPT
+* Claude
+* Gemini
+* GitHub Copilot
+* Cursor
+* Windsurf
+* Perplexity
+* Midjourney
+* Figma AI
+* Vercel AI SDK
+
+Explain:
+
+* Use Cases
+* Advantages
+* Limitations
+* Cost Comparison
+
+================================================
+MODULE 3: PROMPT ENGINEERING
+============================
+
+Slides:
+
+* What is Prompt Engineering
+* Role Prompting
+* Context Prompting
+* Structured Prompting
+* Chain of Thought
+* Task Decomposition
+* Multi-Step Prompting
+* AI Workflow Design
+
+Prompt Frameworks:
+
+* RTF
+* CRAFT
+* CARE
+* STAR
+* System Prompt Design
+
+================================================
+MODULE 4: AI FOR WEB DESIGN
+===========================
+
+Slides:
+
+* AI in UI Design
+* AI in UX Design
+* Wireframing with AI
+* User Flow Generation
+* Design Systems
+* Color System Creation
+* Typography Selection
+* Accessibility Analysis
+* Design Audits
+
+Projects:
+
+* SaaS Dashboard
+* Landing Page
+* Portfolio
+* Blog Design
+
+================================================
+MODULE 5: AI FOR FIGMA
+======================
+
+Slides:
+
+* Figma AI
+* Auto Layout Generation
+* Component Creation
+* Design System Creation
+* Design Tokens
+* Prototype Creation
+* UX Documentation
+
+Projects:
+
+* SaaS UI Kit
+* Admin Dashboard
+* Design System
+
+================================================
+MODULE 6: AI FOR HTML
+=====================
+
+Slides:
+
+* HTML Generation
+* Semantic HTML
+* Accessibility
+* SEO-Friendly Markup
+* Form Generation
+* Landing Pages
+
+Projects:
+
+* Portfolio Website
+* Blog Layout
+* Product Page
+
+================================================
+MODULE 7: AI FOR CSS
+====================
+
+Slides:
+
+* CSS Generation
+* Flexbox Layouts
+* CSS Grid
+* Responsive Design
+* Animations
+* Dark Mode
+* Design Tokens
+
+Projects:
+
+* Responsive Dashboard
+* Landing Page
+* Component Library
+
+================================================
+MODULE 8: AI FOR JAVASCRIPT
+===========================
+
+Slides:
+
+* Learning JavaScript with AI
+* Debugging JavaScript
+* Code Refactoring
+* DOM Manipulation
+* API Integration
+* Async Programming
+
+Projects:
+
+* To-Do App
+* Weather App
+* Quiz App
+
+================================================
+MODULE 9: AI FOR TYPESCRIPT
+===========================
+
+Slides:
+
+* TypeScript Learning
+* Type Generation
+* Refactoring JS to TS
+* Type Safety
+* Enterprise Type Design
+
+Projects:
+
+* Type-safe Applications
+
+================================================
+MODULE 10: AI FOR REACT
+=======================
+
+Slides:
+
+* Component Generation
+* State Management
+* Hooks
+* Forms
+* API Integration
+* Optimization
+
+Projects:
+
+* Dashboard
+* CRM
+* SaaS Interface
+
+================================================
+MODULE 11: AI FOR NEXT.JS
+=========================
+
+Slides:
+
+* App Router
+* Server Components
+* Client Components
+* Authentication
+* SEO
+* Performance Optimization
+
+Projects:
+
+* Production SaaS
+* News Platform
+* Blog Platform
+
+================================================
+MODULE 12: AI FOR NODE.JS
+=========================
+
+Slides:
+
+* API Design
+* Authentication
+* Authorization
+* Middleware
+* Security
+* Error Handling
+
+Projects:
+
+* Authentication System
+* REST API
+
+================================================
+MODULE 13: AI FOR DATABASE DESIGN
+=================================
+
+Slides:
+
+* Database Modeling
+* PostgreSQL Design
+* ER Diagrams
+* Relationships
+* Indexing
+* Optimization
+
+Projects:
+
+* News Platform Schema
+* SaaS Schema
+
+================================================
+MODULE 14: AI FOR FULL STACK DEVELOPMENT
+========================================
+
+Slides:
+
+Complete Workflow:
+
+* Idea
+* Requirements
+* Architecture
+* UI Design
+* Frontend
+* Backend
+* Database
+* Testing
+* Deployment
+
+================================================
+MODULE 15: AI FOR SYSTEM DESIGN
+===============================
+
+Slides:
+
+* Scalability
+* Caching
+* CDN
+* Load Balancing
+* Queues
+* Microservices
+* Event Driven Systems
+
+Projects:
+
+* Large News Platform
+* E-commerce Platform
+
+================================================
+MODULE 16: AI FOR TESTING
+=========================
+
+Slides:
+
+* Unit Testing
+* Integration Testing
+* E2E Testing
+* Test Generation
+* Test Coverage
+
+Tools:
+
+* Jest
+* Playwright
+* Cypress
+
+================================================
+MODULE 17: AI FOR DEBUGGING
+===========================
+
+Slides:
+
+* Finding Bugs
+* Root Cause Analysis
+* Performance Profiling
+* Refactoring
+* Technical Debt Reduction
+
+================================================
+MODULE 18: AI FOR DEVOPS
+========================
+
+Slides:
+
+* Docker
+* CI/CD
+* GitHub Actions
+* Deployment
+* Monitoring
+
+Projects:
+
+* Production Deployment Workflow
+
+================================================
+MODULE 19: AI FOR FREELANCERS
+=============================
+
+Slides:
+
+* Portfolio Building
+* Proposal Writing
+* Client Discovery
+* Project Scoping
+* Pricing
+* Contracts
+* Client Communication
+
+Platforms:
+
+* Upwork
+* Fiverr
+* Freelancer
+
+================================================
+MODULE 20: AI FOR AGENCIES
+==========================
+
+Slides:
+
+* Workflow Automation
+* Team Collaboration
+* Design Operations
+* Development Operations
+* Documentation Generation
+
+================================================
+MODULE 21: AI FOR PRODUCT DEVELOPMENT
+=====================================
+
+Slides:
+
+* Idea Validation
+* Market Research
+* Competitor Analysis
+* MVP Planning
+* Feature Prioritization
+
+Projects:
+
+* SaaS Product
+* News Platform
+* CRM
+
+================================================
+MODULE 22: AI FOR CONTENT CREATION
+==================================
+
+Slides:
+
+* Blog Writing
+* SEO Optimization
+* Landing Page Copy
+* Product Descriptions
+* Marketing Assets
+
+================================================
+MODULE 23: AI SECURITY & RISKS
+==============================
+
+Slides:
+
+* Hallucinations
+* Security Risks
+* Data Privacy
+* Prompt Injection
+* Verification Techniques
+* Human Review Process
+
+================================================
+MODULE 24: REAL-WORLD AI WORKFLOWS
+==================================
+
+Projects:
+
+1. SaaS Dashboard
+2. Portfolio Website
+3. E-Commerce Platform
+4. CRM System
+5. Blog Platform
+6. News Platform
+7. Learning Management System
+8. Admin Dashboard
+
+For each project include:
+
+* AI-Assisted Design Workflow
+* AI-Assisted Development Workflow
+* Folder Structure
+* Architecture Diagram
+* Prompt Library
+* Testing Strategy
+* Deployment Strategy
+
+================================================
+MODULE 25: AI INTERVIEW PREPARATION
+===================================
+
+Slides:
+
+* AI-Assisted Coding Interviews
+* Frontend Questions
+* Backend Questions
+* Full Stack Questions
+* Architecture Questions
+
+================================================
+MODULE 26: FUTURE OF AI DEVELOPMENT
+===================================
+
+Slides:
+
+* AI Agents
+* Autonomous Coding
+* Multi-Agent Systems
+* AI Product Teams
+* Future Developer Roles
+
+================================================
+FINAL CAPSTONE PROJECT
+======================
+
+Build a Production-Ready AI-Assisted News Platform
+
+Frontend:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+Backend:
+
+* Node.js
+* Express.js
+
+Database:
+
+* PostgreSQL
+
+Infrastructure:
+
+* Docker
+* CI/CD
+
+Features:
+
+* Authentication
+* Authorization
+* News Management
+* Categories
+* Search
+* Analytics
+* Admin Dashboard
+
+AI Usage:
+
+* Requirement Analysis
+* UI Design
+* Architecture Planning
+* Code Generation
+* Testing
+* Documentation
+* Deployment
+
+Include:
+
+* Complete Development Workflow
+* Architecture Diagram
+* Folder Structure
+* Prompt Library
+* Best Practices
+* Security Checklist
+* Scalability Plan
+* Production Deployment Checklist
+
+Generate the entire course as a professional slide-by-slide presentation suitable for universities, bootcamps, agencies, freelancers, and full stack developer training programs.
