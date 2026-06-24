@@ -1,0 +1,249 @@
+# MASTER PROMPT: WEB DESIGN + WEB DEVELOPMENT + FULL STACK COURSE PRESENTATION
+
+Act as a Senior Web Design Teacher, Senior Frontend Architect, Senior Backend Engineer, and Professional Technical Trainer.
+
+Your task is to create a COMPLETE PROFESSIONAL PRESENTATION for students.
+
+Audience:
+
+* Complete beginners
+* Intermediate developers
+* Advanced developers
+
+Goal:
+Teach students from zero knowledge to industry-level Full Stack Developer.
+
+Presentation Requirements:
+
+* Create 150+ slides
+* Professional teaching structure
+* Modern industry standards
+* Easy-to-understand explanations
+* Real-world examples
+* Visual slide suggestions
+* Teacher notes
+* Exercises
+* Homework
+* Interview preparation
+* Career roadmap
+
+========================================
+SECTION 1: INTERNET FUNDAMENTALS
+================================
+
+Slides:
+
+* What is the Internet
+* How Internet Works
+* DNS
+* Domain Name
+* Hosting
+* Browser
+* HTTP vs HTTPS
+* Client vs Server
+* Request/Response Cycle
+* APIs Introduction
+
+========================================
+SECTION 2: WEB DESIGN FUNDAMENTALS
+==================================
+
+Slides:
+
+* What is Web Design
+* UI Design
+* UX Design
+* User Psychology
+* Color Theory
+* Typography
+* Layout Systems
+* White Space
+* Visual Hierarchy
+* Accessibility
+
+========================================
+SECTION 3: FIGMA
+================
+
+Slides:
+
+* Introduction to Figma
+* Design Workflow
+* Auto Layout
+* Components
+* Design Systems
+* Variables
+* Prototyping
+* Team Collaboration
+
+========================================
+SECTION 4: FRONTEND DEVELOPMENT
+===============================
+
+Slides:
+
+* HTML
+* CSS
+* JavaScript
+
+Explain:
+
+* Beginner
+* Intermediate
+* Advanced
+
+========================================
+SECTION 5: RESPONSIVE DESIGN
+============================
+
+Slides:
+
+* Mobile First
+* Breakpoints
+* Flexbox
+* Grid
+* Responsive Images
+
+========================================
+SECTION 6: GIT & GITHUB
+=======================
+
+Slides:
+
+* Version Control
+* Git Workflow
+* Branching
+* Pull Requests
+* Collaboration
+
+========================================
+SECTION 7: REACT
+================
+
+Slides:
+
+* React Fundamentals
+* Components
+* Props
+* State
+* Hooks
+* Context API
+* Performance Optimization
+
+========================================
+SECTION 8: NEXT.JS
+==================
+
+Slides:
+
+* App Router
+* Server Components
+* Client Components
+* Data Fetching
+* SEO
+* Authentication
+
+========================================
+SECTION 9: BACKEND DEVELOPMENT
+==============================
+
+Slides:
+
+* Node.js
+* Express.js
+* REST API
+* Authentication
+* JWT
+* Middleware
+* Error Handling
+
+========================================
+SECTION 10: DATABASE
+====================
+
+Slides:
+
+* SQL vs NoSQL
+* MongoDB
+* PostgreSQL
+* Database Design
+* Relationships
+* Indexing
+
+========================================
+SECTION 11: FULL STACK ARCHITECTURE
+===================================
+
+Slides:
+
+* MERN Stack
+* Request Flow
+* API Layer
+* Database Layer
+* Authentication Flow
+* Authorization Flow
+
+========================================
+SECTION 12: ADVANCED TOPICS
+===========================
+
+Slides:
+
+* Design Systems
+* Scalability
+* Caching
+* Security
+* CI/CD
+* Docker
+* Cloud Deployment
+
+========================================
+SECTION 13: REAL PROJECTS
+=========================
+
+Build:
+
+* Portfolio Website
+* Landing Page
+* SaaS Dashboard
+* Blog System
+* E-commerce
+* News Platform
+* CRM System
+
+========================================
+SECTION 14: FREELANCING
+=======================
+
+Slides:
+
+* Fiverr
+* Upwork
+* Client Communication
+* Proposal Writing
+* Pricing
+
+========================================
+SECTION 15: CAREER ROADMAP
+==========================
+
+Slides:
+
+* Junior Developer
+* Mid-Level Developer
+* Senior Developer
+* Tech Lead
+* Freelancing Path
+
+For every slide provide:
+
+1. Slide Title
+2. Slide Objective
+3. Main Content
+4. Speaker Notes
+5. Visual Suggestion
+6. Example
+7. Exercise
+8. Key Takeaway
+
+Output in presentation-ready format.
