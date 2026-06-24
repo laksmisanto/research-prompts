@@ -1,0 +1,550 @@
+# MASTER PROMPT: COMPLETE TYPESCRIPT COURSE PRESENTATION (BEGINNER → ADVANCED)
+
+Act as a Senior TypeScript Architect, Senior Frontend Engineer, Full Stack Developer, Software Architect, and Professional Technical Instructor.
+
+Create a COMPLETE PROFESSIONAL TYPESCRIPT PRESENTATION COURSE.
+
+Target Audience:
+
+* Complete Beginners
+* JavaScript Developers
+* React Developers
+* Full Stack Developers
+* Professional Software Engineers
+
+Goal:
+Teach TypeScript from zero knowledge to production-level enterprise application development.
+
+Requirements:
+
+* 150–200+ Slides
+* Beginner → Advanced
+* Industry Best Practices
+* Enterprise-Level Architecture
+* Real-World Examples
+* React & Next.js Integration
+* Backend Integration
+* Interview Preparation
+* Exercises
+* Quizzes
+* Homework
+* Mini Projects
+* Final Capstone Project
+
+For EVERY slide include:
+
+1. Slide Title
+2. Learning Objective
+3. Detailed Explanation
+4. Code Example
+5. Visual Diagram Suggestion
+6. Real-world Example
+7. Exercise
+8. Quiz Question
+9. Homework
+10. Teacher Notes
+
+Output in professional presentation-ready format.
+
+================================================
+MODULE 1: TYPESCRIPT INTRODUCTION
+=================================
+
+Slides:
+
+* What is TypeScript
+* Why TypeScript Exists
+* JavaScript Problems TypeScript Solves
+* Benefits of Static Typing
+* TypeScript vs JavaScript
+* TypeScript Ecosystem
+* TypeScript in Modern Development
+* TypeScript Compilation Process
+* TypeScript Adoption in Industry
+
+================================================
+MODULE 2: ENVIRONMENT SETUP
+===========================
+
+Slides:
+
+* Installing Node.js
+* Installing TypeScript
+* TypeScript Compiler (tsc)
+* tsconfig.json
+* VS Code Setup
+* Useful Extensions
+* Running TypeScript
+* Debugging TypeScript
+
+================================================
+MODULE 3: BASIC TYPES
+=====================
+
+Slides:
+
+* Type Annotations
+* Number
+* String
+* Boolean
+* Null
+* Undefined
+* Any
+* Unknown
+* Void
+* Never
+* BigInt
+* Symbol
+
+================================================
+MODULE 4: VARIABLES & TYPE INFERENCE
+====================================
+
+Slides:
+
+* let
+* const
+* Type Inference
+* Explicit Typing
+* Best Practices
+* Immutability Concepts
+
+================================================
+MODULE 5: FUNCTIONS
+===================
+
+Slides:
+
+* Function Types
+* Parameters
+* Optional Parameters
+* Default Parameters
+* Return Types
+* Arrow Functions
+* Function Overloading
+* Rest Parameters
+
+================================================
+MODULE 6: OBJECT TYPES
+======================
+
+Slides:
+
+* Object Types
+* Nested Objects
+* Readonly Properties
+* Optional Properties
+* Object Validation
+* Real-World Data Structures
+
+================================================
+MODULE 7: ARRAYS & TUPLES
+=========================
+
+Slides:
+
+* Typed Arrays
+* Array Methods
+* Multi-dimensional Arrays
+* Tuples
+* Tuple Best Practices
+
+================================================
+MODULE 8: ENUMS
+===============
+
+Slides:
+
+* Numeric Enums
+* String Enums
+* Const Enums
+* Enum Best Practices
+* Alternatives to Enums
+
+================================================
+MODULE 9: TYPE ALIASES
+======================
+
+Slides:
+
+* Creating Type Aliases
+* Reusable Types
+* Complex Types
+* Nested Types
+* Domain Modeling
+
+================================================
+MODULE 10: INTERFACES
+=====================
+
+Slides:
+
+* Interface Basics
+* Extending Interfaces
+* Interface vs Type
+* Interface Composition
+* API Contract Design
+
+================================================
+MODULE 11: UNION & INTERSECTION TYPES
+=====================================
+
+Slides:
+
+* Union Types
+* Intersection Types
+* Combining Types
+* Practical Examples
+* Advanced Patterns
+
+================================================
+MODULE 12: LITERAL TYPES
+========================
+
+Slides:
+
+* String Literals
+* Number Literals
+* Boolean Literals
+* Narrowing
+* Type Safety Benefits
+
+================================================
+MODULE 13: TYPE GUARDS
+======================
+
+Slides:
+
+* typeof
+* instanceof
+* in Operator
+* Custom Type Guards
+* Type Narrowing
+
+================================================
+MODULE 14: GENERICS
+===================
+
+Slides:
+
+* Generic Functions
+* Generic Interfaces
+* Generic Classes
+* Generic Constraints
+* Reusable Components
+* Enterprise Usage
+
+================================================
+MODULE 15: ADVANCED TYPES
+=========================
+
+Slides:
+
+* keyof
+* typeof
+* Indexed Access Types
+* Mapped Types
+* Conditional Types
+* Utility Types
+
+================================================
+MODULE 16: UTILITY TYPES
+========================
+
+Slides:
+
+* Partial
+* Required
+* Pick
+* Omit
+* Record
+* Exclude
+* Extract
+* ReturnType
+* Parameters
+
+================================================
+MODULE 17: CLASSES & OOP
+========================
+
+Slides:
+
+* Classes
+* Constructors
+* Access Modifiers
+* Public
+* Private
+* Protected
+* Inheritance
+* Abstract Classes
+* Interfaces with Classes
+
+================================================
+MODULE 18: MODULES
+==================
+
+Slides:
+
+* Export
+* Import
+* Default Export
+* Named Export
+* Module Organization
+* Scalable Folder Structure
+
+================================================
+MODULE 19: ERROR HANDLING
+=========================
+
+Slides:
+
+* try/catch
+* Custom Errors
+* Type-safe Error Handling
+* Enterprise Patterns
+
+================================================
+MODULE 20: ASYNC TYPESCRIPT
+===========================
+
+Slides:
+
+* Promises
+* Async/Await
+* Typed API Responses
+* Error Handling
+* Async Architecture
+
+================================================
+MODULE 21: TYPESCRIPT WITH DOM
+==============================
+
+Slides:
+
+* DOM Types
+* Event Types
+* Form Handling
+* Element Selection
+* Safe DOM Manipulation
+
+================================================
+MODULE 22: TYPESCRIPT WITH REACT
+================================
+
+Slides:
+
+* React + TypeScript Setup
+* Props Typing
+* State Typing
+* Event Typing
+* Context API Typing
+* Custom Hooks
+* Component Patterns
+
+================================================
+MODULE 23: TYPESCRIPT WITH NEXT.JS
+==================================
+
+Slides:
+
+* Next.js Setup
+* App Router
+* Server Components
+* Client Components
+* API Routes
+* Type-safe Data Fetching
+* Authentication Types
+
+================================================
+MODULE 24: TYPESCRIPT WITH NODE.JS
+==================================
+
+Slides:
+
+* Express Setup
+* Request Types
+* Response Types
+* Middleware Types
+* Authentication
+* API Architecture
+
+================================================
+MODULE 25: DATABASE TYPES
+=========================
+
+Slides:
+
+* PostgreSQL Integration
+* Prisma ORM
+* Schema Design
+* Generated Types
+* Database Safety
+
+================================================
+MODULE 26: DESIGN PATTERNS
+==========================
+
+Slides:
+
+* Repository Pattern
+* Factory Pattern
+* Singleton Pattern
+* Strategy Pattern
+* Dependency Injection
+
+================================================
+MODULE 27: CLEAN ARCHITECTURE
+=============================
+
+Slides:
+
+* Layered Architecture
+* Feature-Based Structure
+* Domain-Driven Design Basics
+* Scalable Project Organization
+
+================================================
+MODULE 28: TESTING
+==================
+
+Slides:
+
+* Unit Testing
+* Integration Testing
+* Jest
+* Mocking
+* Type-safe Testing
+
+================================================
+MODULE 29: PERFORMANCE OPTIMIZATION
+===================================
+
+Slides:
+
+* Build Optimization
+* Tree Shaking
+* Bundle Analysis
+* TypeScript Performance
+
+================================================
+MODULE 30: SECURITY
+===================
+
+Slides:
+
+* Secure APIs
+* Input Validation
+* Authentication Types
+* Authorization Models
+
+================================================
+MODULE 31: REAL-WORLD PROJECTS
+==============================
+
+Projects:
+
+1. Task Manager
+2. Weather Dashboard
+3. Blog System
+4. Authentication System
+5. E-Commerce Backend
+6. Admin Dashboard
+7. SaaS Application
+8. News Platform
+
+For Each Project Include:
+
+* Project Overview
+* Folder Structure
+* Architecture Diagram
+* Development Steps
+* Best Practices
+* Testing Strategy
+* Deployment Process
+
+================================================
+MODULE 32: ENTERPRISE TYPESCRIPT
+================================
+
+Slides:
+
+* Large Codebases
+* Monorepo Concepts
+* Shared Types
+* API Contracts
+* Team Collaboration
+* Code Reviews
+
+================================================
+MODULE 33: INTERVIEW PREPARATION
+================================
+
+Slides:
+
+* Beginner Questions
+* Intermediate Questions
+* Advanced Questions
+* Scenario-Based Questions
+* Coding Challenges
+
+================================================
+MODULE 34: TYPESCRIPT ROADMAP 2026
+==================================
+
+Slides:
+
+* Frontend Developer Path
+* React Developer Path
+* Next.js Developer Path
+* Full Stack Developer Path
+* Software Architect Path
+* Freelancing Strategy
+
+================================================
+FINAL CAPSTONE PROJECT
+======================
+
+Build a Production-Ready Full Stack News Platform
+
+Frontend:
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+Backend:
+
+* Node.js
+* Express
+* TypeScript
+
+Database:
+
+* PostgreSQL
+
+Features:
+
+* Authentication
+* Authorization
+* News Management
+* Categories
+* Tags
+* Search
+* Admin Dashboard
+* Analytics
+
+Include:
+
+* Complete Architecture Diagram
+* Folder Structure
+* Type Definitions
+* API Contracts
+* Database Schema
+* Deployment Workflow
+* Docker Setup
+* CI/CD Pipeline
+* Performance Strategy
+* Security Checklist
+
+Generate the complete presentation in professional slide-by-slide format suitable for classroom teaching, corporate training, bootcamps, and self-learning.
