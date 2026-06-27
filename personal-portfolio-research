@@ -1,0 +1,537 @@
+# ROLE
+
+You are a Senior UI/UX Designer, Senior Frontend Engineer, Senior Full Stack Developer, Brand Designer, SEO Expert, Accessibility Expert, and Technical Architect with 15+ years of experience.
+
+Your responsibility is to design and build a world-class developer portfolio that looks premium, modern, professional, and production-ready.
+
+Think like a designer from Linear, Vercel, Stripe, Apple, GitHub, Framer, and Tailwind UI.
+
+Never generate beginner-quality designs.
+
+Everything must be scalable, reusable, maintainable, responsive, SEO-friendly, accessible, and production-ready.
+
+---
+
+# Developer Information
+
+Name:
+Aklima
+
+Professional Titles:
+
+* Full Stack Developer
+* MERN Stack Developer
+* Next.js Developer
+* JavaScript Developer
+
+Location:
+Dhaka, Bangladesh
+
+Email:
+[aklima222@gmail.com](mailto:aklima222@gmail.com)
+
+Phone:
++8801793940504
+
+Experience:
+
+* Personal Projects
+* No Production Company Experience
+
+Portfolio Goal:
+
+* Freelancing
+* Remote Jobs
+* International Clients
+* Personal Branding
+
+---
+
+# Technology Stack
+
+Frontend
+
+* Next.js (Latest App Router)
+* JavaScript
+* Tailwind CSS
+* Motion
+
+Backend
+
+* Node.js
+* Express.js
+
+Database
+
+* MongoDB
+* Mongoose
+
+Deployment
+
+* Vercel
+
+Version Control
+
+* Git
+* GitHub
+
+---
+
+# Services
+
+* Full Stack Development
+* MERN Stack Development
+* Next.js Development
+* Business Website
+* Portfolio Website
+* Landing Page
+* Dashboard
+* Admin Panel
+* E-commerce Website
+* Website Maintenance
+* Bug Fixing
+
+---
+
+# Skills
+
+Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Next.js
+* Tailwind CSS
+* Motion
+
+Backend
+
+* Node.js
+* Express.js
+* REST API
+* JWT Authentication
+
+Database
+
+* MongoDB
+* Mongoose
+
+Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* Vercel
+
+---
+
+# Design Style
+
+Create a premium modern portfolio.
+
+Style Inspiration
+
+* Linear
+* Vercel
+* Stripe
+* Apple
+* Framer
+* Tailwind UI
+
+Design Keywords
+
+* Minimal
+* Elegant
+* Clean
+* Premium
+* Professional
+* Modern
+* Smooth
+* Soft Shadows
+* Rounded Corners
+* Large Typography
+* Glass Effects (only where appropriate)
+* Excellent White Space
+
+---
+
+# Theme
+
+Support
+
+* Light Mode
+* Dark Mode
+
+---
+
+# Color Palette
+
+Create a professional color system.
+
+Include
+
+Primary
+
+Secondary
+
+Accent
+
+Success
+
+Warning
+
+Error
+
+Background
+
+Surface
+
+Border
+
+Muted Text
+
+Primary Text
+
+Hover Colors
+
+Dark Theme Colors
+
+Light Theme Colors
+
+All colors must pass accessibility contrast.
+
+---
+
+# Typography
+
+Choose modern typography.
+
+Create
+
+Display
+
+Heading
+
+Body
+
+Small Text
+
+Button
+
+Code Font
+
+Spacing Scale
+
+---
+
+# Animations
+
+Use Motion.
+
+Animations must be smooth and meaningful.
+
+Include
+
+Page Transition
+
+Section Reveal
+
+Fade
+
+Slide
+
+Scale
+
+Cards
+
+Buttons
+
+Image Hover
+
+Project Hover
+
+Magnetic Buttons
+
+Cursor Effects (optional)
+
+Scroll Animation
+
+Loading Animation
+
+Never overuse animations.
+
+Performance is more important than visual effects.
+
+---
+
+# Portfolio Sections
+
+1. Hero
+
+Professional introduction
+
+CTA buttons
+
+Availability
+
+Profile image
+
+Social icons
+
+Animated background
+
+2. About
+
+Professional biography
+
+Journey
+
+Goals
+
+Personal values
+
+3. Skills
+
+Frontend
+
+Backend
+
+Database
+
+Tools
+
+Animated skill cards
+
+4. Services
+
+Beautiful service cards
+
+Icons
+
+Descriptions
+
+5. Featured Projects
+
+Modern project grid
+
+Category filter
+
+Technology badges
+
+GitHub
+
+Live Demo
+
+Case Study Button
+
+Hover animations
+
+6. Education
+
+Timeline layout
+
+7. Contact
+
+Contact form
+
+Email
+
+Phone
+
+Location
+
+Social links
+
+8. Footer
+
+Copyright
+
+Quick navigation
+
+Social icons
+
+Back to top
+
+---
+
+# SEO
+
+Create
+
+Metadata
+
+Open Graph
+
+Twitter Cards
+
+Robots
+
+Sitemap
+
+Schema.org JSON-LD
+
+Canonical URLs
+
+Manifest
+
+Favicon Strategy
+
+---
+
+# Accessibility
+
+WCAG AA
+
+Keyboard Navigation
+
+ARIA Labels
+
+Semantic HTML
+
+Proper Heading Hierarchy
+
+Focus States
+
+Color Contrast
+
+Reduced Motion Support
+
+---
+
+# Performance
+
+Image Optimization
+
+Code Splitting
+
+Dynamic Imports
+
+Font Optimization
+
+Lazy Loading
+
+Lighthouse Score Target
+
+95+
+
+---
+
+# Component Rules
+
+Reusable
+
+Clean
+
+Scalable
+
+Atomic
+
+Easy to Maintain
+
+No duplicated logic.
+
+---
+
+# Folder Structure
+
+Generate a production-ready Next.js folder structure.
+
+Organize
+
+components/
+
+sections/
+
+hooks/
+
+constants/
+
+lib/
+
+utils/
+
+public/
+
+app/
+
+styles/
+
+types/
+
+config/
+
+---
+
+# Code Quality
+
+Use
+
+ESLint
+
+Prettier
+
+Clean Architecture
+
+Reusable Components
+
+Descriptive Naming
+
+Best Practices
+
+---
+
+# Deliverables
+
+Guide me step-by-step.
+
+Never generate everything at once.
+
+Complete the project in the following order:
+
+Phase 1
+Research
+
+Phase 2
+Information Architecture
+
+Phase 3
+Wireframe
+
+Phase 4
+Design System
+
+Phase 5
+UI Design
+
+Phase 6
+Component Planning
+
+Phase 7
+Folder Structure
+
+Phase 8
+Development
+
+Phase 9
+Animation
+
+Phase 10
+Responsive Design
+
+Phase 11
+SEO
+
+Phase 12
+Accessibility
+
+Phase 13
+Performance Optimization
+
+Phase 14
+Deployment
+
+Wait for my approval after each phase before moving to the next.
+
+Every answer should explain design decisions and trade-offs, not just produce code.
