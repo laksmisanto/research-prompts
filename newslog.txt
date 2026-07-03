@@ -1,0 +1,431 @@
+santo@fedora:~/Projects/Running-project/F-news-feed-py-scraper$ python onboard_source.py --batch existing_sources.txt --save
+
+📦 Batch onboarding 27 domains...
+
+
+🔍 prothomalo.com
+   base_url  : https://www.prothomalo.com
+   site name : Prothomalo
+   language  : bn
+
+   Candidates found: 4
+     [news-sitemap] 100 urls, newest 12m ago  https://www.prothomalo.com/news_sitemap.xml
+     [rss         ]  50 urls, newest 44m ago  https://www.prothomalo.com/feed
+     [rss         ]  50 urls, newest 44m ago  https://www.prothomalo.com/feed/
+     [sitemap     ]  62 urls  https://www.prothomalo.com/sitemap/sitemap-static-pages.xml
+
+   📋 Best: [news-sitemap] https://www.prothomalo.com/news_sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(251693)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(5501)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(1698)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(1796)  ✓ image  ✓ date
+     5. ✓ title  ✗ body(267)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 4/5, image 5/5, date 5/5)
+      • all quality checks passed
+/home/santo/Projects/Running-project/F-news-feed-py-scraper/onboard_source.py:452: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = dt.utcnow()
+
+   💾 Source updated: Prothomalo
+──────────────────────────────────────────────────────────────────────
+
+🔍 kalerkantho.com
+   base_url  : https://www.kalerkantho.com
+   site name : কালের কণ্ঠ
+   language  : bn
+
+   Candidates found: 1
+     [sitemap     ]  25 urls  https://www.kalerkantho.com/daily-sitemap/sitemap-section.xml
+
+   📋 Best: [sitemap] https://www.kalerkantho.com/daily-sitemap/sitemap-section.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(3774)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(3788)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(3899)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(3798)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(3677)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: কালের কণ্ঠ
+──────────────────────────────────────────────────────────────────────
+
+🔍 jugantor.com
+   base_url  : https://www.jugantor.com
+   site name : Jugantor
+   language  : bn
+
+   Candidates found: 1
+     [news-sitemap] 100 urls, newest 18m ago  https://www.jugantor.com/news_sitemap.xml
+
+   📋 Best: [news-sitemap] https://www.jugantor.com/news_sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(1178)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(1135)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(1571)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(1614)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(770)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: Jugantor
+──────────────────────────────────────────────────────────────────────
+
+🔍 samakal.com
+   base_url  : https://samakal.com
+   site name : SAMAKAL | সমকাল
+   language  : bn
+
+   Candidates found: 5
+     [news-sitemap] 100 urls, newest 21m ago  https://samakal.com/news_sitemap.xml
+     [rss         ]  50 urls, newest -338m ago  https://samakal.com/feed.xml
+     [rss         ]  50 urls, newest 21m ago  https://samakal.com/rss
+     [rss         ]  50 urls, newest 21m ago  https://samakal.com/rss/
+     [sitemap     ]  11 urls  https://samakal.com/sitemap/sitemap-static-pages.xml
+
+   📋 Best: [news-sitemap] https://samakal.com/news_sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✗ body(179)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(343)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(311)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(440)  ✓ image  ✓ date
+     5. ✓ title  ✗ body(266)  ✓ image  ✓ date
+
+   🟡 Verdict: YELLOW (title 5/5, body 3/5, image 5/5, date 5/5)
+      • body too short on 2/5 tested samples
+
+   💾 Source updated: SAMAKAL | সমকাল
+──────────────────────────────────────────────────────────────────────
+
+🔍 ittefaq.com.bd
+   base_url  : https://www.ittefaq.com.bd
+   site name : The Daily Ittefaq
+   language  : bn
+
+   Candidates found: 3
+     [news-sitemap] 100 urls, newest 0m ago  https://www.ittefaq.com.bd/news-sitemap.xml
+     [rss         ]  50 urls, newest 16m ago  https://www.ittefaq.com.bd/feed/
+     [sitemap     ] 100 urls  https://www.ittefaq.com.bd/sitemap.xml
+
+   📋 Best: [news-sitemap] https://www.ittefaq.com.bd/news-sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✗ body(170)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(823)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(1499)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(1884)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(1996)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 4/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: The Daily Ittefaq
+──────────────────────────────────────────────────────────────────────
+
+🔍 bd-pratidin.com
+   base_url  : https://www.bd-pratidin.com
+   site name : bd-pratidin.com
+   language  : bn
+
+   Candidates found: 2
+     [rss         ]  50 urls, newest -354m ago  https://www.bd-pratidin.com/rss.xml
+     [sitemap     ] 100 urls  https://www.bd-pratidin.com/daily-sitemap/sitemap-section.xml
+
+   📋 Best: [rss] https://www.bd-pratidin.com/rss.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(441)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(1392)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(1937)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(783)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(1934)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: bd-pratidin.com
+──────────────────────────────────────────────────────────────────────
+
+🔍 bdnews24.com
+   base_url  : https://bdnews24.com
+   site name : bdnews24.com
+   language  : en
+
+   Candidates found: 2
+     [news-sitemap]  89 urls, newest 15m ago  https://bdnews24.com/news_sitemap.xml
+     [sitemap     ]  11 urls  https://bdnews24.com/sitemap/sitemap-static-pages.xml
+
+   📋 Best: [news-sitemap] https://bdnews24.com/news_sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✗ body(90)  ✓ image  ✓ date
+     2. ✓ title  ✗ body(71)  ✓ image  ✓ date
+     3. ✓ title  ✗ body(100)  ✓ image  ✓ date
+     4. ✓ title  ✗ body(121)  ✓ image  ✓ date
+     5. ✓ title  ✗ body(97)  ✓ image  ✓ date
+
+   🔴 Verdict: RED (title 5/5, body 0/5, image 5/5, date 5/5)
+      • body too short on 5/5 tested samples
+──────────────────────────────────────────────────────────────────────
+
+🔍 banglanews24.com
+   base_url  : https://www.banglanews24.com
+   site name : banglanews24
+   language  : bn
+
+   Candidates found: 2
+     [rss         ]   2 urls, newest -354m ago  https://www.banglanews24.com/rss.xml
+     [sitemap     ]  29 urls  https://www.banglanews24.com/daily-sitemap/sitemap-section.xml
+
+   📋 Best: [rss] https://www.banglanews24.com/rss.xml
+
+   🧪 Extraction test (2 samples):
+     1. ✓ title  ✓ body(575)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(597)  ✓ image  ✓ date
+
+   🔴 Verdict: RED (title 2/2, body 2/2, image 2/2, date 2/2)
+      • 0/2 samples failed to extract
+──────────────────────────────────────────────────────────────────────
+
+🔍 jagonews24.com
+   base_url  : https://www.jagonews24.com
+   site name : Jagonews24
+   language  : bn
+
+   Candidates found: 2
+     [news-sitemap] 100 urls, newest 12m ago  https://www.jagonews24.com/sitemaps/news-sitemap.xml
+     [rss         ]  50 urls, newest 12m ago  https://www.jagonews24.com/rss/rss.xml
+
+   📋 Best: [news-sitemap] https://www.jagonews24.com/sitemaps/news-sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(1913)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(2175)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(2134)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(2327)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(2422)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: Jagonews24
+──────────────────────────────────────────────────────────────────────
+
+🔍 dhakapost.com
+   base_url  : https://www.dhakapost.com
+   site name : dhakapost.com
+   language  : bn
+
+   Candidates found: 3
+     [news-sitemap] 100 urls, newest 2m ago  https://www.dhakapost.com/sitemaps/news-sitemap.xml
+     [news-sitemap] 100 urls  https://www.dhakapost.com/sitemaps/topic-sitemap.xml
+     [rss         ]  20 urls, newest 2m ago  https://www.dhakapost.com/rss/rss.xml
+
+   📋 Best: [news-sitemap] https://www.dhakapost.com/sitemaps/news-sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(1086)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(2290)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(965)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(1427)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(2081)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: dhakapost.com
+──────────────────────────────────────────────────────────────────────
+
+🔍 thedailystar.net
+   base_url  : https://www.thedailystar.net
+   site name : The Daily Star
+   language  : en
+
+   Candidates found: 2
+     [rss         ]   8 urls, newest 775h ago  https://www.thedailystar.net/rss.xml
+     [sitemap     ] 100 urls, newest 19h ago  https://www.thedailystar.net/sitemap.xml?page=1
+
+   📋 Best: [sitemap] https://www.thedailystar.net/sitemap.xml?page=1
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(728)  ✓ image  ✓ date
+     2. ✓ title  ✗ body(266)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(740)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(329)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(1672)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 4/5, image 5/5, date 5/5)
+      • all quality checks passed
+/home/santo/Projects/Running-project/F-news-feed-py-scraper/onboard_source.py:452: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = dt.utcnow()
+
+   💾 Source updated: The Daily Star
+──────────────────────────────────────────────────────────────────────
+
+🔍 tbsnews.net
+   base_url  : https://www.tbsnews.net
+   site name : The Business Standard
+   language  : en
+
+   Candidates found: 5
+     [news-sitemap] 100 urls, newest 28m ago  https://www.tbsnews.net/googlenews.xml
+     [news-sitemap] 100 urls, newest 123m ago  https://www.tbsnews.net/bangla/googlenews.xml
+     [rss         ]  10 urls, newest 40657h ago  https://www.tbsnews.net/rss.xml
+     [sitemap     ] 100 urls, newest 54h ago  https://www.tbsnews.net/bangla/sitemap.xml?page=1
+     [sitemap     ] 100 urls, newest 37087h ago  https://www.tbsnews.net/sitemap.xml?page=1
+
+   📋 Best: [news-sitemap] https://www.tbsnews.net/googlenews.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(1762)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(3639)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(308)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(2640)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(1677)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: The Business Standard
+──────────────────────────────────────────────────────────────────────
+
+🔍 dhakatribune.com
+   base_url  : https://www.dhakatribune.com
+   site name : Dhaka Tribune
+   language  : en
+
+   Candidates found: 2
+     [news-sitemap] 100 urls, newest 33m ago  https://www.dhakatribune.com/news-sitemap.xml
+     [rss         ]  50 urls, newest 33m ago  https://www.dhakatribune.com/feed/
+
+   📋 Best: [news-sitemap] https://www.dhakatribune.com/news-sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(4199)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(3830)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(5102)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(2273)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(1744)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: Dhaka Tribune
+──────────────────────────────────────────────────────────────────────
+
+🔍 newagebd.net
+   base_url  : https://www.newagebd.net
+   site name : New Age
+   language  : en
+
+   Candidates found: 1
+     [sitemap     ] 100 urls, newest -325m ago  https://www.newagebd.net/news-sitemap/1.xml
+
+   📋 Best: [sitemap] https://www.newagebd.net/news-sitemap/1.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(4022)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(3991)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(4542)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(4508)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(4321)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: New Age
+──────────────────────────────────────────────────────────────────────
+
+🔍 thefinancialexpress.com.bd
+   base_url  : https://thefinancialexpress.com.bd
+   site name : The Financial Express
+   language  : 
+
+   Candidates found: 0
+
+   🔴 Verdict: RED (title 0/0, body 0/0, image 0/0, date 0/0)
+      • no working RSS / news-sitemap / sitemap found
+      • site may be JS-rendered → consider requires_browser=True
+──────────────────────────────────────────────────────────────────────
+
+🔍 bbc.com/bengali
+   base_url  : https://www.bbc.com
+   site name : BBC Home
+   language  : en
+
+   Candidates found: 33
+     [news-sitemap] 100 urls, newest 1m ago  https://www.bbc.com/sitemaps/https-sitemap-com-news-1.xml
+     [news-sitemap] 100 urls, newest 1m ago  https://www.bbc.com/sitemaps/https-sitemap-com-video-1.xml
+     [news-sitemap] 100 urls, newest 172m ago  https://www.bbc.com/sitemaps/https-sitemap-com-archive_video-1.xml
+     [news-sitemap] 100 urls, newest 147500h ago  https://www.bbc.com/sitemaps/https-sitemap-com-archive-1.xml
+     [sitemap     ] 100 urls, newest 122m ago  https://www.bbc.com/bbcx/index_sitemap.xml
+
+   📋 Best: [news-sitemap] https://www.bbc.com/sitemaps/https-sitemap-com-news-1.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(11231)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(8788)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(5703)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(2777)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(712)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: BBC Home
+──────────────────────────────────────────────────────────────────────
+
+🔍 dw.com/bn
+   base_url  : https://www.dw.com
+   site name : (unknown)
+   language  : en
+
+   Candidates found: 1
+     [news-sitemap]  37 urls, newest 163m ago  https://www.dw.com/de/news-sitemap.xml
+
+   📋 Best: [news-sitemap] https://www.dw.com/de/news-sitemap.xml
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(9709)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(6536)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(2651)  ✓ image  ✓ date
+     4. ✓ title  ✓ body(6765)  ✓ image  ✓ date
+     5. ✓ title  ✓ body(6534)  ✓ image  ✓ date
+
+   🟢 Verdict: GREEN (title 5/5, body 5/5, image 5/5, date 5/5)
+      • all quality checks passed
+
+   💾 Source updated: www.dw.com
+──────────────────────────────────────────────────────────────────────
+
+🔍 voabangla.com
+   base_url  : https://www.voabangla.com
+   site name : VOA বাংলা
+   language  : bn
+
+   Candidates found: 3
+     [rss         ]  20 urls, newest 17h ago  https://www.voabangla.com/rss/
+     [rss         ]  20 urls, newest 11033h ago  https://www.voabangla.com/api/
+     [sitemap     ]   1 urls  https://www.voabangla.com/Sitemap/Hreflang
+
+   📋 Best: [rss] https://www.voabangla.com/rss/
+
+   🧪 Extraction test (5 samples):
+     1. ✓ title  ✓ body(573)  ✓ image  ✓ date
+     2. ✓ title  ✓ body(573)  ✓ image  ✓ date
+     3. ✓ title  ✓ body(573)  ✓ image  ✓ date
+     4. ✓ title  ✗ body(37)  ✓ image  ✓ date
+     5. ✓ title  ✗ body(37)  ✓ image  ✓ date
+
+   🟡 Verdict: YELLOW (title 5/5, body 3/5, image 5/5, date 5/5)
+      • body too short on 2/5 tested samples
+
+   💾 Source updated: VOA বাংলা
+──────────────────────────────────────────────────────────────────────
