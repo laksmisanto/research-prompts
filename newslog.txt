@@ -1,136 +1,1509 @@
-2026-07-04 01:15:55 | INFO     | main | [Main] Running single scrape pass...
-2026-07-04 01:15:55 | INFO     | runner | ━━━ Scraper run started | run_id=65ea087f-5acb-4b10-9356-15b7078b3060 ━━━
-2026-07-04 01:16:02 | INFO     | runner | [Runner] 39 active sources to process
-2026-07-04 01:16:02 | INFO     | runner | [Runner] Playwright enabled this run (cap=50 renders)
-2026-07-04 01:16:03 | INFO     | browser | [Playwright] Browser launched
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: Prothomalo (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: The Daily Star (en) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: কালের কণ্ঠ (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: Jugantor (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: The Daily Ittefaq (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: SAMAKAL | সমকাল (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: Manab Zamin (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: bdnews24 (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: banglanews24 (bn) [httpx]
-2026-07-04 01:16:03 | INFO     | runner | [Source] Starting: Inqilab (bn) [httpx]
-2026-07-04 01:16:03 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for bdnews24: Client error '403 Forbidden' for url 'https://bdnews24.com/?widgetName=rssfeed&widgetId=1150&getXmlFeed=true'
+2026-07-04 17:08:04 | INFO     | main | [Main] Running single scrape pass...
+2026-07-04 17:08:04 | INFO     | runner | ━━━ Scraper run started | run_id=00f88f96-c1ac-414c-807c-dca91692daf9 ━━━
+2026-07-04 17:08:10 | INFO     | runner | [Runner] 36 active sources to process
+2026-07-04 17:08:10 | INFO     | runner | [Runner] Playwright enabled this run (cap=50 renders)
+2026-07-04 17:08:11 | INFO     | browser | [Playwright] Browser launched
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: Prothomalo (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: The Daily Star (en) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: কালের কণ্ঠ (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: Jugantor (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: The Daily Ittefaq (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: SAMAKAL | সমকাল (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: Manab Zamin (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: bdnews24 (bn) [PLAYWRIGHT]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: banglanews24 (bn) [httpx]
+2026-07-04 17:08:11 | INFO     | runner | [Source] Starting: Inqilab (bn) [httpx]
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for কালের কণ্ঠ: Client error '403 Forbidden' for url 'https://www.kalerkantho.com/rss.xml'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-07-04 01:16:03 | WARNING  | fetcher.base | [sitemap] HTTP 403: https://bdnews24.com/sitemap.xml
-2026-07-04 01:16:03 | WARNING  | fetcher.base | [html] HTTP 403: https://bdnews24.com
-2026-07-04 01:16:03 | WARNING  | fetcher.html | [HTML] Could not fetch listing page for bdnews24
-2026-07-04 01:16:03 | WARNING  | runner | [Source] No URLs fetched from bdnews24
-2026-07-04 01:16:03 | INFO     | fetcher.rss | [RSS] banglanews24 → 4 URLs found
-2026-07-04 01:16:03 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Inqilab: Client error '404 Not Found' for url 'https://dailyinqilab.com/feed'
+2026-07-04 17:08:11 | WARNING  | fetcher.base | [sitemap] HTTP 403: https://www.kalerkantho.com/sitemap.xml
+2026-07-04 17:08:11 | WARNING  | fetcher.base | [html] HTTP 403: https://www.kalerkantho.com
+2026-07-04 17:08:11 | WARNING  | fetcher.html | [HTML] Could not fetch listing page for কালের কণ্ঠ
+2026-07-04 17:08:11 | WARNING  | runner | [Source] No URLs fetched from কালের কণ্ঠ
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Empty feed for Jugantor
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for The Daily Ittefaq: Client error '404 Not Found' for url 'https://www.ittefaq.com.bd/feed'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:04 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Manab Zamin: Client error '404 Not Found' for url 'https://www.mzamin.com/feed'
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for banglanews24: Client error '404 Not Found' for url 'https://www.banglanews24.com/rss/rss.xml'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:04 | INFO     | fetcher.html | [HTML] Inqilab → 0 URLs found
-2026-07-04 01:16:04 | WARNING  | runner | [Source] No URLs fetched from Inqilab
-2026-07-04 01:16:04 | INFO     | fetcher.html | [HTML] Manab Zamin → 4 URLs found
-2026-07-04 01:16:06 | INFO     | runner | [Source] Starting: Jagonews24 (bn) [httpx]
-2026-07-04 01:16:09 | INFO     | runner | [Source] Starting: bd-pratidin.com (bn) [httpx]
-2026-07-04 01:16:10 | INFO     | fetcher.rss | [RSS] bd-pratidin.com → 4 URLs found
-2026-07-04 01:16:12 | INFO     | runner | [Source] কালের কণ্ঠ done | saved=0 dupes=4 errors=0 fetcher=sitemap
-2026-07-04 01:16:12 | INFO     | runner | [Source] Manab Zamin done | saved=0 dupes=4 errors=0 fetcher=html
-2026-07-04 01:16:14 | INFO     | runner | [Source] Starting: Naya Diganta (bn) [httpx]
-2026-07-04 01:16:14 | WARNING  | fetcher.rss | [RSS] Empty feed for Naya Diganta
-2026-07-04 01:16:14 | INFO     | runner | [Source] Starting: dhakapost.com (bn) [httpx]
-2026-07-04 01:16:15 | INFO     | fetcher.html | [HTML] Naya Diganta → 4 URLs found
-2026-07-04 01:16:24 | INFO     | runner | [Source] Jugantor done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:16:26 | INFO     | runner | [Source] Prothomalo done | saved=3 dupes=1 errors=0 fetcher=sitemap
-2026-07-04 01:16:27 | INFO     | runner | [Source] The Daily Ittefaq done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:16:27 | INFO     | runner | [Source] Starting: BBC Bangla (bn) [httpx]
-2026-07-04 01:16:27 | INFO     | fetcher.rss | [RSS] BBC Bangla → 4 URLs found
-2026-07-04 01:16:27 | INFO     | runner | [Source] Naya Diganta done | saved=2 dupes=2 errors=0 fetcher=html
-2026-07-04 01:16:28 | INFO     | runner | [Source] Starting: Bhorer Kagoj (bn) [httpx]
-2026-07-04 01:16:28 | INFO     | runner | [Source] bd-pratidin.com done | saved=4 dupes=0 errors=0 fetcher=rss
-2026-07-04 01:16:28 | INFO     | runner | [Source] SAMAKAL | সমকাল done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:16:29 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Bhorer Kagoj: Client error '404 Not Found' for url 'https://www.bhorerkagoj.net/feed'
+2026-07-04 17:08:11 | INFO     | fetcher.html | [HTML] Jugantor → 4 URLs found
+2026-07-04 17:08:11 | INFO     | fetcher.html | [HTML] The Daily Ittefaq → 4 URLs found
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Empty feed for SAMAKAL | সমকাল
+2026-07-04 17:08:11 | INFO     | fetcher.html | [HTML] banglanews24 → 4 URLs found
+2026-07-04 17:08:11 | INFO     | fetcher.rss | [RSS] The Daily Star → 4 URLs found
+2026-07-04 17:08:11 | INFO     | fetcher.html | [HTML] SAMAKAL | সমকাল → 4 URLs found
+2026-07-04 17:08:11 | INFO     | fetcher.rss | [RSS] Prothomalo → 4 URLs found
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Inqilab: Client error '404 Not Found' for url 'https://dailyinqilab.com/feed'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:29 | INFO     | runner | [Source] banglanews24 done | saved=4 dupes=0 errors=0 fetcher=rss
-2026-07-04 01:16:43 | INFO     | fetcher.html | [HTML] Bhorer Kagoj → 1 URLs found
-2026-07-04 01:16:43 | INFO     | runner | [Source] Starting: Dainik Amader Shomoy (bn) [httpx]
-2026-07-04 01:16:44 | INFO     | runner | [Source] Starting: DW Bangla (bn) [httpx]
-2026-07-04 01:16:44 | INFO     | runner | [Source] Starting: Bangla Tribune (bn) [httpx]
-2026-07-04 01:16:44 | INFO     | runner | [Source] Starting: VOA বাংলা (bn) [httpx]
-2026-07-04 01:16:44 | INFO     | runner | [Source] The Daily Star done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:16:44 | INFO     | fetcher.rss | [RSS] VOA বাংলা → 4 URLs found
-2026-07-04 01:16:44 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Bangla Tribune: Client error '404 Not Found' for url 'https://www.banglatribune.com/feed'
+2026-07-04 17:08:11 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Manab Zamin: Client error '404 Not Found' for url 'https://www.mzamin.com/feed'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:44 | INFO     | fetcher.html | [HTML] Bangla Tribune → 4 URLs found
-2026-07-04 01:16:45 | INFO     | runner | [Source] Starting: Risingbd (bn) [httpx]
-2026-07-04 01:16:45 | INFO     | fetcher.rss | [RSS] DW Bangla → 4 URLs found
-2026-07-04 01:16:45 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Risingbd: Client error '404 Not Found' for url 'https://www.risingbd.com/rss.xml'
+2026-07-04 17:08:12 | INFO     | fetcher.html | [HTML] Inqilab → 0 URLs found
+2026-07-04 17:08:12 | WARNING  | runner | [Source] No URLs fetched from Inqilab
+2026-07-04 17:08:12 | INFO     | fetcher.html | [HTML] Manab Zamin → 4 URLs found
+2026-07-04 17:08:14 | WARNING  | browser | [Playwright] HTTP 404 for https://bdnews24.com/bangla
+2026-07-04 17:08:15 | INFO     | runner | [Source] Starting: bd-pratidin.com (bn) [httpx]
+2026-07-04 17:08:15 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for bd-pratidin.com: Client error '403 Forbidden' for url 'https://www.bd-pratidin.com/rss.xml'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-07-04 17:08:15 | WARNING  | fetcher.base | [html] HTTP 403: https://www.bd-pratidin.com
+2026-07-04 17:08:15 | WARNING  | fetcher.html | [HTML] Could not fetch listing page for bd-pratidin.com
+2026-07-04 17:08:15 | WARNING  | runner | [Source] No URLs fetched from bd-pratidin.com
+2026-07-04 17:08:16 | INFO     | fetcher.headless | [Headless] bdnews24 → 0 articles from 2 rendered page(s)
+2026-07-04 17:08:16 | WARNING  | runner | [Source] No URLs fetched from bdnews24
+2026-07-04 17:08:17 | INFO     | runner | [Source] Starting: Jagonews24 (bn) [httpx]
+2026-07-04 17:08:17 | INFO     | fetcher.rss | [RSS] Jagonews24 → 4 URLs found
+2026-07-04 17:08:18 | INFO     | runner | [Source] Starting: dhakapost.com (bn) [httpx]
+2026-07-04 17:08:18 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for dhakapost.com: Client error '404 Not Found' for url 'https://www.dhakapost.com/rss.xml'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:45 | INFO     | fetcher.html | [HTML] Risingbd → 4 URLs found
-2026-07-04 01:16:45 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Dainik Amader Shomoy: Client error '404 Page not found: /feed' for url 'https://www.dainikamadershomoy.com/feed'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:46 | INFO     | runner | [Source] Starting: Desh Rupantor (bn) [httpx]
-2026-07-04 01:16:46 | INFO     | fetcher.html | [HTML] Dainik Amader Shomoy → 3 URLs found
-2026-07-04 01:16:46 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Desh Rupantor: Client error '404 Not Found' for url 'https://www.deshrupantor.com/feed'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:46 | INFO     | fetcher.html | [HTML] Desh Rupantor → 4 URLs found
-2026-07-04 01:16:49 | INFO     | runner | [Source] Bhorer Kagoj done | saved=0 dupes=0 errors=1 fetcher=html
-2026-07-04 01:16:50 | INFO     | runner | [Source] Jagonews24 done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:16:51 | INFO     | runner | [Source] Starting: Financial Express BD (en) [httpx]
-2026-07-04 01:16:51 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Financial Express BD: Client error '404 Not Found' for url 'https://thefinancialexpress.com.bd/rss'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:51 | INFO     | fetcher.html | [HTML] Financial Express BD → 4 URLs found
-2026-07-04 01:16:52 | INFO     | runner | [Source] dhakapost.com done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:16:52 | INFO     | runner | [Source] Dainik Amader Shomoy done | saved=0 dupes=3 errors=0 fetcher=html
-2026-07-04 01:16:52 | INFO     | runner | [Source] Bangla Tribune done | saved=0 dupes=4 errors=0 fetcher=html
-2026-07-04 01:16:52 | INFO     | runner | [Source] Risingbd done | saved=0 dupes=4 errors=0 fetcher=html
-2026-07-04 01:16:53 | INFO     | runner | [Source] Starting: The Business Standard (en) [httpx]
-2026-07-04 01:16:53 | INFO     | runner | [Source] Starting: New Age (en) [httpx]
-2026-07-04 01:16:54 | INFO     | runner | [Source] Starting: Al Jazeera (en) [httpx]
-2026-07-04 01:16:54 | INFO     | runner | [Source] Desh Rupantor done | saved=0 dupes=4 errors=0 fetcher=html
-2026-07-04 01:16:54 | INFO     | runner | [Source] Starting: Dhaka Tribune (en) [httpx]
-2026-07-04 01:16:54 | INFO     | fetcher.rss | [RSS] Al Jazeera → 4 URLs found
-2026-07-04 01:16:55 | INFO     | runner | [Source] Starting: AP News (en) [httpx]
-2026-07-04 01:16:55 | INFO     | runner | [Source] Starting: UNB News (en) [httpx]
-2026-07-04 01:16:55 | INFO     | runner | [Source] DW Bangla done | saved=1 dupes=3 errors=0 fetcher=rss
-2026-07-04 01:16:56 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for UNB News: Client error '404 Not Found' for url 'https://unb.com.bd/feed'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-07-04 01:16:56 | INFO     | fetcher.html | [HTML] UNB News → 4 URLs found
-2026-07-04 01:16:57 | INFO     | runner | [Source] Financial Express BD done | saved=0 dupes=4 errors=0 fetcher=html
-2026-07-04 01:16:57 | INFO     | runner | [Source] Starting: Latest news, sport and opinion from the Guardian (en) [httpx]
-2026-07-04 01:16:58 | INFO     | runner | [Source] Starting: NDTV (en) [httpx]
-2026-07-04 01:17:00 | INFO     | fetcher.rss | [RSS] NDTV → 4 URLs found
-2026-07-04 01:17:02 | INFO     | runner | [Source] UNB News done | saved=0 dupes=4 errors=0 fetcher=html
-2026-07-04 01:17:04 | INFO     | runner | [Source] Starting: The Hindu (en) [httpx]
-2026-07-04 01:17:06 | INFO     | runner | [Source] NDTV done | saved=0 dupes=0 errors=4 fetcher=rss
-2026-07-04 01:17:07 | INFO     | runner | [Source] Starting: Somoy News TV (bn) [PLAYWRIGHT]
-2026-07-04 01:17:09 | INFO     | runner | [Source] BBC Bangla done | saved=3 dupes=0 errors=1 fetcher=rss
-2026-07-04 01:17:11 | INFO     | runner | [Source] VOA বাংলা done | saved=4 dupes=0 errors=0 fetcher=rss
-2026-07-04 01:17:11 | INFO     | runner | [Source] Starting: Jamuna Television (bn) [PLAYWRIGHT]
-2026-07-04 01:17:12 | INFO     | runner | [Source] Starting: একাত্তর (bn) [PLAYWRIGHT]
-2026-07-04 01:17:13 | INFO     | fetcher.headless | [Headless] Jamuna Television → 4 articles from 1 rendered page(s)
-2026-07-04 01:17:14 | INFO     | fetcher.headless | [Headless] একাত্তর → 4 articles from 1 rendered page(s)
-2026-07-04 01:17:26 | INFO     | runner | [Source] Dhaka Tribune done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:17:27 | INFO     | runner | [Source] Starting: DBC News (bn) [PLAYWRIGHT]
-2026-07-04 01:17:27 | INFO     | runner | [Source] একাত্তর done | saved=3 dupes=1 errors=0 fetcher=headless
-2026-07-04 01:17:29 | INFO     | runner | [Source] Al Jazeera done | saved=4 dupes=0 errors=0 fetcher=rss
-2026-07-04 01:17:29 | INFO     | runner | [Source] Starting: www.dw.com (en) [httpx]
-2026-07-04 01:17:29 | INFO     | runner | [Source] Jamuna Television done | saved=4 dupes=0 errors=0 fetcher=headless
-2026-07-04 01:17:30 | INFO     | runner | [Source] The Business Standard done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:17:31 | INFO     | runner | [Source] Starting: BBC Home (en) [httpx]
-2026-07-04 01:17:32 | INFO     | runner | [Source] Starting: dbcnews.tv (en) [httpx]
-2026-07-04 01:17:32 | INFO     | fetcher.html | [HTML] dbcnews.tv → 4 URLs found
-2026-07-04 01:17:37 | INFO     | runner | [Source] AP News done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:17:37 | WARNING  | browser | [Playwright] Render failed https://www.somoynews.tv/: Page.goto: Timeout 30000ms exceeded.
-Call log:
-  - navigating to "https://www.somoynews.tv/", waiting until "networkidle"
+2026-07-04 17:08:18 | INFO     | fetcher.html | [HTML] dhakapost.com → 4 URLs found
+2026-07-04 17:08:19 | INFO     | runner | [Source] Starting: Naya Diganta (bn) [httpx]
+2026-07-04 17:08:21 | WARNING  | fetcher.rss | [RSS] Empty feed for Naya Diganta
+2026-07-04 17:08:21 | INFO     | fetcher.html | [HTML] Naya Diganta → 4 URLs found
+2026-07-04 17:08:32 | INFO     | runner | [Source] Jugantor done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:08:32 | ERROR    | runner | [Article] Error processing https://samakal.com/politics: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(Politics) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('Politics', 'politics', None, datetime.datetime(2026, 7, 4, 11, 8, 29, 839061))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(Politics) already exists.
 
-2026-07-04 01:17:38 | INFO     | fetcher.headless | [Headless] DBC News → 0 articles from 5 rendered page(s)
-2026-07-04 01:17:38 | WARNING  | runner | [Source] No URLs fetched from DBC News
-2026-07-04 01:17:39 | INFO     | fetcher.headless | [Headless] Somoy News TV → 0 articles from 1 rendered page(s)
-2026-07-04 01:17:39 | WARNING  | runner | [Source] No URLs fetched from Somoy News TV
-2026-07-04 01:17:40 | INFO     | runner | [Source] Latest news, sport and opinion from the Guardian done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:17:42 | INFO     | runner | [Source] New Age done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:17:43 | INFO     | runner | [Source] The Hindu done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:17:52 | INFO     | runner | [Source] dbcnews.tv done | saved=4 dupes=0 errors=0 fetcher=html
-2026-07-04 01:18:07 | INFO     | runner | [Source] BBC Home done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:18:11 | INFO     | runner | [Source] www.dw.com done | saved=4 dupes=0 errors=0 fetcher=sitemap
-2026-07-04 01:18:12 | INFO     | browser | [Playwright] Browser closed
-2026-07-04 01:18:12 | INFO     | runner | ━━━ Scraper run complete | run_id=65ea087f-5acb-4b10-9356-15b7078b3060 | playwright_used=7/50 ━━━
-2026-07-04 01:18:12 | INFO     | main | [Main] Single pass complete.
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(Politics) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(Politics) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('Politics', 'politics', None, datetime.datetime(2026, 7, 4, 11, 8, 29, 839061))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:34 | INFO     | runner | [Source] Prothomalo done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:08:35 | INFO     | runner | [Source] Starting: BBC Bangla (bn) [httpx]
+2026-07-04 17:08:35 | INFO     | fetcher.rss | [RSS] BBC Bangla → 4 URLs found
+2026-07-04 17:08:36 | INFO     | runner | [Source] Starting: Bhorer Kagoj (bn) [httpx]
+2026-07-04 17:08:37 | INFO     | runner | [Source] SAMAKAL | সমকাল done | saved=3 dupes=0 errors=1 fetcher=html
+2026-07-04 17:08:37 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Bhorer Kagoj: Client error '404 Not Found' for url 'https://www.bhorerkagoj.net/feed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:08:38 | INFO     | fetcher.html | [HTML] Bhorer Kagoj → 1 URLs found
+2026-07-04 17:08:38 | INFO     | runner | [Source] Starting: Dainik Amader Shomoy (bn) [httpx]
+2026-07-04 17:08:40 | ERROR    | runner | [Article] Error processing https://www.ittefaq.com.bd/latest-news: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('রাজনীতি', 'রজনত', None, datetime.datetime(2026, 7, 4, 11, 8, 24, 107609))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('রাজনীতি', 'রজনত', None, datetime.datetime(2026, 7, 4, 11, 8, 24, 107609))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:40 | ERROR    | runner | [Article] Error processing https://www.thedailystar.net/rohingya-influx/news/rohingya-genocide-case-proceed-3076971: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(ধর্ম) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('ধর্ম', 'ধরম', None, datetime.datetime(2026, 7, 4, 11, 8, 32, 730735))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(ধর্ম) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(ধর্ম) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(ধর্ম) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('ধর্ম', 'ধরম', None, datetime.datetime(2026, 7, 4, 11, 8, 32, 730735))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:40 | ERROR    | runner | [Article] Error processing https://www.banglanews24.com/topic/3612: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(খেলাধুলা) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('খেলাধুলা', 'খলধল', None, datetime.datetime(2026, 7, 4, 11, 8, 34, 580195))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(খেলাধুলা) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(খেলাধুলা) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(খেলাধুলা) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('খেলাধুলা', 'খলধল', None, datetime.datetime(2026, 7, 4, 11, 8, 34, 580195))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:40 | INFO     | runner | [Source] banglanews24 done | saved=3 dupes=0 errors=1 fetcher=html
+2026-07-04 17:08:40 | ERROR    | runner | [Article] Error processing https://www.dhakapost.com/latest-news: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('রাজনীতি', 'রজনত', None, datetime.datetime(2026, 7, 4, 11, 8, 22, 526122))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(রাজনীতি) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('রাজনীতি', 'রজনত', None, datetime.datetime(2026, 7, 4, 11, 8, 22, 526122))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:41 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Dainik Amader Shomoy: Client error '404 Page not found: /feed' for url 'https://www.dainikamadershomoy.com/feed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:08:43 | INFO     | runner | [Source] Bhorer Kagoj done | saved=0 dupes=0 errors=1 fetcher=html
+2026-07-04 17:08:43 | INFO     | fetcher.html | [HTML] Dainik Amader Shomoy → 3 URLs found
+2026-07-04 17:08:45 | INFO     | runner | [Source] Starting: DW Bangla (bn) [httpx]
+2026-07-04 17:08:45 | INFO     | fetcher.rss | [RSS] DW Bangla → 4 URLs found
+2026-07-04 17:08:45 | INFO     | runner | [Source] Naya Diganta done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:08:46 | INFO     | runner | [Source] Starting: Bangla Tribune (bn) [httpx]
+2026-07-04 17:08:46 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Bangla Tribune: Client error '404 Not Found' for url 'https://www.banglatribune.com/feed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:08:46 | INFO     | fetcher.html | [HTML] Bangla Tribune → 4 URLs found
+2026-07-04 17:08:48 | INFO     | runner | [Source] Starting: VOA বাংলা (bn) [httpx]
+2026-07-04 17:08:50 | WARNING  | fetcher.rss | [RSS] Empty feed for VOA বাংলা
+2026-07-04 17:08:50 | INFO     | runner | [Source] Jagonews24 done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:08:52 | INFO     | runner | [Source] Starting: Risingbd (bn) [httpx]
+2026-07-04 17:08:52 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Risingbd: Client error '404 Not Found' for url 'https://www.risingbd.com/rss.xml'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:08:52 | INFO     | fetcher.html | [HTML] Risingbd → 4 URLs found
+2026-07-04 17:08:52 | WARNING  | fetcher.base | [sitemap] HTTP 503: https://www.voabangla.com/sitemap_407_news.xml.gz
+2026-07-04 17:08:52 | INFO     | fetcher.sitemap | [Sitemap] VOA বাংলা → 0 URLs from index
+2026-07-04 17:08:52 | INFO     | runner | [Source] Dainik Amader Shomoy done | saved=0 dupes=0 errors=3 fetcher=html
+2026-07-04 17:08:52 | INFO     | fetcher.html | [HTML] VOA বাংলা → 4 URLs found
+2026-07-04 17:08:53 | ERROR    | runner | [Article] Error processing https://www.banglatribune.com/%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%AC%E0%A6%B0: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('আন্তর্জাতিক', 'আনতরজতক', None, datetime.datetime(2026, 7, 4, 11, 8, 49, 928429))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('আন্তর্জাতিক', 'আনতরজতক', None, datetime.datetime(2026, 7, 4, 11, 8, 49, 928429))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:53 | ERROR    | runner | [Article] Error processing https://www.dw.com/bn/ইরানের-শাসনব্যবস্থা-কি-ভেঙে-পড়বে/a-76405122?maca=ben-rss-ben-all-3197-rdf: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('আন্তর্জাতিক', 'আনতরজতক', None, datetime.datetime(2026, 7, 4, 11, 8, 49, 702717))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 550, in _prepare_and_execute
+    self._rows = deque(await prepared_stmt.fetch(*parameters))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 177, in fetch
+    data = await self.__bind_execute(args, 0, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 268, in __bind_execute
+    data, status, _ = await self.__do_execute(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda protocol: protocol.bind_execute(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            self._state, args, '', limit, True, timeout))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/asyncpg/prepared_stmt.py", line 257, in __do_execute
+    return await executor(protocol)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 205, in bind_execute
+asyncpg.exceptions.UniqueViolationError: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.IntegrityError: <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/runner.py", line 445, in _process_url
+    category_objs = await process_categories(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 348, in process_categories
+    parent = await _get_or_create_category(session, parent_name, parent_id=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/Projects/Running-project/F-news-feed-py-scraper/processors/category.py", line 379, in _get_or_create_category
+    await session.flush()
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/ext/asyncio/session.py", line 786, in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/santo/.local/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.IntegrityError: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "scraper_categories_name_key"
+DETAIL:  Key (name)=(আন্তর্জাতিক) already exists.
+[SQL: INSERT INTO scraper_categories (name, slug, parent_id, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::INTEGER, $4::TIMESTAMP WITHOUT TIME ZONE) RETURNING scraper_categories.id]
+[parameters: ('আন্তর্জাতিক', 'আনতরজতক', None, datetime.datetime(2026, 7, 4, 11, 8, 49, 702717))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-07-04 17:08:53 | INFO     | runner | [Source] Manab Zamin done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:08:55 | INFO     | runner | [Source] Starting: Desh Rupantor (bn) [httpx]
+2026-07-04 17:08:55 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Desh Rupantor: Client error '404 Not Found' for url 'https://www.deshrupantor.com/feed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:08:55 | INFO     | fetcher.html | [HTML] Desh Rupantor → 4 URLs found
+2026-07-04 17:08:55 | INFO     | runner | [Source] dhakapost.com done | saved=3 dupes=0 errors=1 fetcher=html
+2026-07-04 17:08:55 | INFO     | runner | [Source] Starting: Financial Express BD (en) [httpx]
+2026-07-04 17:08:56 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Financial Express BD: Client error '404 Not Found' for url 'https://thefinancialexpress.com.bd/rss'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:08:56 | INFO     | fetcher.html | [HTML] Financial Express BD → 4 URLs found
+2026-07-04 17:08:57 | INFO     | runner | [Source] The Daily Ittefaq done | saved=3 dupes=0 errors=1 fetcher=html
+2026-07-04 17:08:58 | INFO     | runner | [Source] Starting: The Business Standard (en) [httpx]
+2026-07-04 17:08:58 | INFO     | fetcher.rss | [RSS] The Business Standard → 4 URLs found
+2026-07-04 17:08:59 | INFO     | runner | [Source] Starting: New Age (en) [httpx]
+2026-07-04 17:09:00 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for New Age: Client error '404 Not Found' for url 'https://www.newagebd.net/rss'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:09:02 | INFO     | runner | [Source] The Daily Star done | saved=3 dupes=0 errors=1 fetcher=rss
+2026-07-04 17:09:03 | INFO     | fetcher.html | [HTML] New Age → 4 URLs found
+2026-07-04 17:09:03 | INFO     | runner | [Source] Starting: Al Jazeera (en) [httpx]
+2026-07-04 17:09:04 | INFO     | fetcher.rss | [RSS] Al Jazeera → 4 URLs found
+2026-07-04 17:09:05 | INFO     | runner | [Source] Bangla Tribune done | saved=3 dupes=0 errors=1 fetcher=html
+2026-07-04 17:09:06 | INFO     | runner | [Source] BBC Bangla done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:09:08 | INFO     | runner | [Source] Starting: Dhaka Tribune (en) [httpx]
+2026-07-04 17:09:08 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for Dhaka Tribune: Client error '404 Not Found' for url 'https://www.dhakatribune.com/feed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:09:08 | INFO     | fetcher.sitemap | [Sitemap] Dhaka Tribune → 4 URLs from index
+2026-07-04 17:09:08 | INFO     | runner | [Source] DW Bangla done | saved=3 dupes=0 errors=1 fetcher=rss
+2026-07-04 17:09:09 | INFO     | runner | [Source] VOA বাংলা done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:10 | INFO     | runner | [Source] Starting: UNB News (en) [httpx]
+2026-07-04 17:09:10 | WARNING  | fetcher.rss | [RSS] Failed to fetch RSS for UNB News: Client error '404 Not Found' for url 'https://unb.com.bd/feed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-07-04 17:09:10 | INFO     | runner | [Source] Starting: AP News (en) [httpx]
+2026-07-04 17:09:10 | INFO     | fetcher.html | [HTML] UNB News → 4 URLs found
+2026-07-04 17:09:11 | INFO     | runner | [Source] Starting: Latest news, sport and opinion from the Guardian (en) [httpx]
+2026-07-04 17:09:11 | INFO     | fetcher.rss | [RSS] Latest news, sport and opinion from the Guardian → 4 URLs found
+2026-07-04 17:09:13 | INFO     | fetcher.sitemap | [Sitemap] AP News → 0 URLs from index
+2026-07-04 17:09:13 | INFO     | fetcher.html | [HTML] AP News → 4 URLs found
+2026-07-04 17:09:19 | INFO     | runner | [Source] Risingbd done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:19 | INFO     | runner | [Source] Desh Rupantor done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:21 | INFO     | runner | [Source] Starting: The Hindu (en) [httpx]
+2026-07-04 17:09:21 | INFO     | fetcher.rss | [RSS] The Hindu → 4 URLs found
+2026-07-04 17:09:22 | INFO     | runner | [Source] Starting: Somoy News TV (bn) [PLAYWRIGHT]
+2026-07-04 17:09:24 | INFO     | fetcher.headless | [Headless] Somoy News TV → 0 articles from 1 rendered page(s)
+2026-07-04 17:09:24 | WARNING  | runner | [Source] No URLs fetched from Somoy News TV
+2026-07-04 17:09:26 | INFO     | runner | [Source] Starting: Jamuna Television (bn) [PLAYWRIGHT]
+2026-07-04 17:09:28 | INFO     | fetcher.headless | [Headless] Jamuna Television → 4 articles from 1 rendered page(s)
+2026-07-04 17:09:32 | INFO     | runner | [Source] Financial Express BD done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:34 | INFO     | runner | [Source] Starting: একাত্তর (bn) [PLAYWRIGHT]
+2026-07-04 17:09:38 | INFO     | runner | [Source] Dhaka Tribune done | saved=4 dupes=0 errors=0 fetcher=sitemap
+2026-07-04 17:09:40 | INFO     | runner | [Source] Starting: BBC Home (en) [httpx]
+2026-07-04 17:09:41 | INFO     | fetcher.headless | [Headless] একাত্তর → 4 articles from 1 rendered page(s)
+2026-07-04 17:09:42 | INFO     | runner | [Source] The Business Standard done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:09:43 | INFO     | runner | [Source] AP News done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:43 | INFO     | runner | [Source] New Age done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:43 | INFO     | runner | [Source] Starting: dbcnews.tv (en) [httpx]
+2026-07-04 17:09:43 | INFO     | fetcher.html | [HTML] dbcnews.tv → 4 URLs found
+2026-07-04 17:09:44 | INFO     | runner | [Source] Jamuna Television done | saved=4 dupes=0 errors=0 fetcher=headless
+2026-07-04 17:09:45 | INFO     | runner | [Source] Al Jazeera done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:09:47 | INFO     | runner | [Source] UNB News done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:09:48 | INFO     | runner | [Source] Latest news, sport and opinion from the Guardian done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:10:00 | INFO     | runner | [Source] The Hindu done | saved=4 dupes=0 errors=0 fetcher=rss
+2026-07-04 17:10:02 | INFO     | runner | [Source] একাত্তর done | saved=4 dupes=0 errors=0 fetcher=headless
+2026-07-04 17:10:03 | INFO     | runner | [Source] dbcnews.tv done | saved=4 dupes=0 errors=0 fetcher=html
+2026-07-04 17:10:17 | INFO     | runner | [Source] BBC Home done | saved=4 dupes=0 errors=0 fetcher=sitemap
+2026-07-04 17:10:19 | INFO     | browser | [Playwright] Browser closed
+2026-07-04 17:10:19 | INFO     | runner | ━━━ Scraper run complete | run_id=00f88f96-c1ac-414c-807c-dca91692daf9 | playwright_used=8/50 ━━━
+2026-07-04 17:10:19 | INFO     | main | [Main] Single pass complete.
